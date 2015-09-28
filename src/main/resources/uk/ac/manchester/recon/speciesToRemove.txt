@@ -1,0 +1,3 @@
+# Non-metabolites
+M_carbon_e
+M_CE5049_c

@@ -1,0 +1,29 @@
+R_ARACHCPT1	carnitine acyltransferase I
+R_ARACHCPT2	carnitine acyltransferase II
+R_ARACHCRNt	carnitine/acylcarnitine translocase
+R_ARACHFATPtc	arachidate transport
+R_C100CPT1	carnitine acyltransferase I
+R_C160CPT1	carnitine acyltransferase I
+R_C160CPT2	carnitine acyltransferase II
+R_C160CRNt	carnitine/acylcarnitine translocase
+R_C180CPT1	carnitine acyltransferase I
+R_C180CPT2	carnitine acyltransferase II
+R_C180CRNt	carnitine/acylcarnitine translocase
+R_FACOAL140i	fatty-acid--CoA ligase (myristate, n-C14:0)
+R_FACOAL160i	fatty-acid--CoA ligase (palmitate, n-C16:0)
+R_FACOAL180i	fatty-acid--CoA ligase (stearate, n-C18:0)
+R_FACOAL200	fatty-acid--CoA ligase (arachidate, n-C20:0)
+R_FACOAL40im	fatty-acid--CoA ligase (butanoate, n-C4:0), mitochondrial
+R_FACOAL80i	fatty-acid--CoA ligase (octanoate, n-C8:0)
+R_FAOXC180	fatty acid beta oxidation(C18-->C16)m
+R_FAOXC200180m	fatty acid beta oxidation(C20-->C18)m
+R_HEXCOAACBP	hexanoyl(n-C6:0)-CoA transport
+R_OCCOAtm	octanoyl(n-C8:0)-CoA transport
+R_OCDCAFATPtc	stearate transport
+R_OCDCEAFATPtc	octadecenoate transport
+R_SBTD_D2	sorbitol dehydrogenase
+R_SBTR	aldose reductase
+R_TTDCAFATPtc	myristate transport
+R_TTDCPT1	carnitine acyltransferase I
+R_TTDCPT2	carnitine acyltransferase II
+R_TTDCRNt	carnitine/acylcarnitine translocase

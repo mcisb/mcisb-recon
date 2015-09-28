@@ -1,0 +1,2 @@
+R_EX_HC02176_LPAREN_e_RPAREN_	R_EX_ddca_LPAREN_e_RPAREN_
+R_EX_docosac_	R_EX_docosac_LPAREN_e_RPAREN_

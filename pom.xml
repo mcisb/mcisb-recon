@@ -1,0 +1,156 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mcisb</groupId>
+  <artifactId>mcisb-recon</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>mcisb-recon</name>
+  <description>mcisb-recon</description>
+  <url>https://github.com/mcisb/mcisb-recon</url>
+  
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+  
+  <scm>
+    <url>https://github.com/mcisb/mcisb-recon</url>
+    <connection>scm:git:https://github.com/mcisb/mcisb-recon.git</connection>
+    <developerConnection>scm:git:https://github.com/mcisb/mcisb-recon.git</developerConnection>
+  </scm>
+
+  <developers>
+    <developer>
+      <email>neil.swainston@manchester.ac.uk</email>
+      <name>Neil Swainston</name>
+      <url>https://github.com/neilswainston</url>
+      <id>neilswainston</id>
+    </developer>
+  </developers>
+  
+  <organization>
+    <name>MCISB</name>
+    <url>http://www.mcisb.org</url>
+  </organization>
+  
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>2.2.1</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.9.1</version>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <version>1.5</version>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>1.6.3</version>
+        <extensions>true</extensions>
+        <configuration>
+          <serverId>ossrh</serverId>
+          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+          <autoReleaseAfterClose>true</autoReleaseAfterClose>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <repositories>
+  	<repository>
+  		<id>ebi-repo</id>
+		<name>The EBI internal repository</name>
+		<url>http://www.ebi.ac.uk/~maven/m2repo</url>
+		<releases>
+			<enabled>true</enabled>
+		</releases>
+		<snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+	</repository>
+	<repository>
+		<id>XypronRelease</id>
+		<name>Xypron Release</name>
+		<url>http://rsync.xypron.de/repository</url>
+		<layout>default</layout>
+	</repository>
+	<repository>
+	  <id>snapshots-repo</id>
+	  <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+	  <releases>
+	    <enabled>false</enabled>
+	  </releases>
+	  <snapshots>
+	    <enabled>true</enabled>
+	  </snapshots>
+	</repository>
+  </repositories>
+  
+  <dependencies>
+ 	<dependency>
+	    <groupId>org.mcisb</groupId>
+	    <artifactId>subliminal-toolbox</artifactId>
+	    <version>1.0.0-SNAPSHOT</version>
+ 	</dependency>
+  </dependencies>
+
+</project>

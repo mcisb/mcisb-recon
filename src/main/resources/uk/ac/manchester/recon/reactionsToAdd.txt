@@ -1,0 +1,98 @@
+R_EX_hx_LPAREN_e_RPAREN_	exchange reaction for hexanoate (n-C6:0)	M_hx_b <=> M_hx_e
+R_FACOAL100i	fatty-acid--CoA ligase (decanoate, n-C10:0)	M_atp_c + M_coa_c + M_dca_c + M_h_c --> M_amp_c + M_ppi_c + M_dcacoa_c
+R_FACOAL120i	fatty-acid--CoA ligase (dodecanoate, n-C12:0)	M_atp_c + M_coa_c + M_ddca_c + M_h_c --> M_amp_c + M_ppi_c + M_ddcacoa_c
+R_FACOAL60i	fatty-acid--CoA ligase (hexanoate, n-C6:0)	M_atp_c + M_coa_c + M_hx_c + M_h_c --> M_amp_c + M_ppi_c + M_hxcoa_c
+R_HXt	hexanoate transport via diffusion	M_hx_e <=> M_hx_c
+R_C60CRNt	C160 transport into the mitochondria	M_c6crn_c  -> M_c6crn_m 
+R_C60CPT2	carnitine O-hexanoyl transferase	M_coa_m + M_c6crn_m  -> M_crn_m + M_hxcoa_m
+R_C100CRNt	C160 transport into the mitochondria	M_c10crn_c  -> M_c10crn_m 
+R_C100CPT2	carnitine O-hexanoyl transferase	M_coa_m + M_c10crn_m  -> M_crn_m + M_dcacoa_m
+R_C120CRNt	transport into the mitochondria (carnitine)	M_ddeccrn_c  -> M_ddeccrn_m
+R_C120CPT2	carnitine transferase	M_coa_m + M_ddeccrn_m  -> M_crn_m + M_ddcacoa_m
+
+R_AIRCr_PRASCS	phosphoribosylaminoimidazole carboxylase / phosphoribosylaminoimidazolesuccinocarboxamide synthase	M_co2_c + M_air_c + M_atp_c + M_asp_L_c <=> 3 M_h_c + M_adp_c + M_pi_c + M_25aics_c
+
+# UCSD: Fatty acid metabolism
+R_FAOXC10080m	R_FAOXC10080m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_dcacoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_occoa_m 
+R_FAOXC10080x	R_FAOXC10080x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_dcacoa_x  --> M_occoa_x + M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x 
+R_FAOXC101_3Em	R_FAOXC101_3Em	M_h2o_m + M_nad_m + M_coa_m + M_c101_3Ecoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_occoa_m 
+R_FAOXC101_4Em	R_FAOXC101_4Em	M_nadph_m + M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c101_4Ecoa_m  --> M_nadh_m + M_nadp_m + M_fadh2_m + M_accoa_m + M_occoa_m 
+R_FAOXC101_4Zm	R_FAOXC101_4Zm	M_nadph_m + M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c101_4Zcoa_m  --> M_nadh_m + M_nadp_m + M_fadh2_m + M_accoa_m + M_occoa_m 
+R_FAOXC101_4Zx	R_FAOXC101_4Zx	M_h2o_x + M_coa_x + M_o2_x + M_nadph_x + M_nad_x + M_c101_4Zcoa_x  --> M_occoa_x + M_h2o2_x + M_nadp_x + M_nadh_x + M_accoa_x 
+R_FAOXC102_4Z_7Zm	R_FAOXC102_4Z_7Zm	M_nadph_m + M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c102_4Z_7Zcoa_m  --> M_nadh_m + M_nadp_m + M_fadh2_m + M_accoa_m + M_c81_5Zcoa_m 
+R_FAOXC102_4Z_7Zx	R_FAOXC102_4Z_7Zx	M_h2o_x + M_coa_x + M_o2_x + M_nadph_x + M_nad_x + M_c102_4Z_7Zcoa_x  --> M_h2o2_x + M_nadp_x + M_nadh_x + M_accoa_x + M_c81_5Zcoa_x 
+R_FAOXC11090m	R_FAOXC11090m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c110coa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c90coa_m 
+R_FAOXC120100m	R_FAOXC120100m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_ddcacoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_dcacoa_m 
+R_FAOXC120100x	R_FAOXC120100x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_ddcacoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_dcacoa_x 
+R_FAOXC121_3Em	R_FAOXC121_3Em	M_h2o_m + M_nad_m + M_coa_m + M_c121_3Ecoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_dcacoa_m 
+R_FAOXC121_3Zm	R_FAOXC121_3Zm	M_h2o_m + M_nad_m + M_coa_m + M_c121_3Zcoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_dcacoa_m 
+R_FAOXC121_5Em	R_FAOXC121_5Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c121_5Ecoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c101_3Ecoa_m 
+R_FAOXC122_3E_6Em	R_FAOXC122_3E_6Em	M_h2o_m + M_nad_m + M_coa_m + M_c122_3E_6Ecoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_c101_4Ecoa_m 
+R_FAOXC122_3Z_6Zm	R_FAOXC122_3Z_6Zm	M_h2o_m + M_nad_m + M_coa_m + M_c122_3Z_6Zcoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_c101_4Zcoa_m 
+R_FAOXC122_3Z_6Zx	R_FAOXC122_3Z_6Zx	M_h2o_x + M_coa_x + M_nad_x + M_c122_3Z_6Zcoa_x  --> M_h_x + M_nadh_x + M_accoa_x + M_c101_4Zcoa_x 
+R_FAOXC123_3Z_6Z_9Zm	R_FAOXC123_3Z_6Z_9Zm	M_h2o_m + M_nad_m + M_coa_m + M_c123_3Z_6Z_9Zcoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_c102_4Z_7Zcoa_m 
+R_FAOXC123_3Z_6Z_9Zx	R_FAOXC123_3Z_6Z_9Zx	M_h2o_x + M_coa_x + M_nad_x + M_c123_3Z_6Z_9Zcoa_x  --> M_h_x + M_nadh_x + M_accoa_x + M_c102_4Z_7Zcoa_x 
+R_FAOXC130110m	R_FAOXC130110m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c130coa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c110coa_m 
+R_FAOXC140120m	R_FAOXC140120m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_tdcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_ddcacoa_m 
+R_FAOXC140120x	R_FAOXC140120x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_tdcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_ddcacoa_x 
+R_FAOXC141_5Em	R_FAOXC141_5Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c141_5Ecoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c121_3Ecoa_m 
+R_FAOXC141_5Zm	R_FAOXC141_5Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c141_5Zcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c121_3Zcoa_m 
+R_FAOXC141_7Em	R_FAOXC141_7Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c141_7Ecoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c121_5Ecoa_m 
+R_FAOXC142_5E_8Em	R_FAOXC142_5E_8Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c142_5E_8Ecoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c122_3E_6Ecoa_m 
+R_FAOXC142_5Z_8Zm	R_FAOXC142_5Z_8Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c142_5Z_8Zcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c122_3Z_6Zcoa_m 
+R_FAOXC142_5Z_8Zx	R_FAOXC142_5Z_8Zx	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c142_5Z_8Zcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c122_3Z_6Zcoa_x 
+R_FAOXC143_5Z_8Z_11Zm	R_FAOXC143_5Z_8Z_11Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c143_5Z_8Z_11Zcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c123_3Z_6Z_9Zcoa_m 
+R_FAOXC143_5Z_8Z_11Zx	R_FAOXC143_5Z_8Z_11Zx	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c143_5Z_8Z_11Zcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c123_3Z_6Z_9Zcoa_x 
+R_FAOXC150130m	R_FAOXC150130m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_ptdcacoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c130coa_m 
+R_FAOXC160140m	R_FAOXC160140m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_pmtcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_tdcoa_m 
+R_FAOXC160140x	R_FAOXC160140x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_pmtcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_tdcoa_x 
+R_FAOXC161_7Em	R_FAOXC161_7Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c161_7Ecoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c141_5Ecoa_m 
+R_FAOXC161_7Zm	R_FAOXC161_7Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c161_7Zcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c141_5Zcoa_m 
+R_FAOXC161_9Em	R_FAOXC161_9Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c161_9Ecoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c141_7Ecoa_m 
+R_FAOXC1611402m	R_FAOXC1611402m	M_h2o_m + M_nad_m + M_coa_m + M_hdcoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_tdcoa_m 
+R_FAOXC161140m	R_FAOXC161140m	M_h2o_m + M_nad_m + M_coa_m + M_hdd2coa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_tdcoa_m 
+R_FAOXC162_7E_10Em	R_FAOXC162_7E_10Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c162_7E_10Ecoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c142_5E_8Ecoa_m 
+R_FAOXC162_7Z_10Zm	R_FAOXC162_7Z_10Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c162_7Z_10Zcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m  + M_c142_5Z_8Zcoa_m 
+R_FAOXC163_4Z_7Z_10Zm	R_FAOXC163_4Z_7Z_10Zm	M_nadph_m + M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c163_4Z_7Z_10Zcoa_m  --> M_nadh_m + M_nadp_m + M_fadh2_m + M_accoa_m + M_c142_5Z_8Zcoa_m 
+R_FAOXC163_4Z_7Z_10Zx	R_FAOXC163_4Z_7Z_10Zx	M_h2o_x + M_coa_x + M_o2_x + M_nadph_x + M_nad_x + M_c163_4Z_7Z_10Zcoa_x  --> M_h2o2_x + M_nadp_x + M_nadh_x + M_accoa_x + M_c142_5Z_8Zcoa_x 
+R_FAOXC163_7Z_10Z_13Zm	R_FAOXC163_7Z_10Z_13Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c163_7Z_10Z_13Zcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c143_5Z_8Z_11Zcoa_m 
+R_FAOXC164_4Z_7Z_10Z_13Zm	R_FAOXC164_4Z_7Z_10Z_13Zm	M_nadph_m + M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c164_4Z_7Z_10Z_13Zcoa_m  --> M_nadh_m + M_nadp_m + M_fadh2_m + M_accoa_m + M_c143_5Z_8Z_11Zcoa_m 
+R_FAOXC164_4Z_7Z_10Z_13Zx	R_FAOXC164_4Z_7Z_10Z_13Zx	M_nadph_m + M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c164_4Z_7Z_10Z_13Zcoa_x  --> M_h2o2_x + M_nadp_x + M_nadh_x + M_accoa_x + M_c143_5Z_8Z_11Zcoa_x 
+R_FAOXC170150m	R_FAOXC170150m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_hpdcacoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_ptdcacoa_m 
+R_FAOXC181_11Em	R_FAOXC181_11Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_octd11ecoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c161_9Ecoa_m 
+R_FAOXC181_9Em	R_FAOXC181_9Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_od2coa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c161_7Ecoa_m 
+R_FAOXC181_9Zm	R_FAOXC181_9Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_ocde9ecoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c161_7Zcoa_m 
+R_FAOXC182_9E_12Em	R_FAOXC182_9E_12Em	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_lneldccoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c162_7E_10Ecoa_m 
+R_FAOXC182_9Z_12Zm	R_FAOXC182_9Z_12Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_lnlccoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c162_7Z_10Zcoa_m 
+R_FAOXC183_6Z_9Z_12Zm	R_FAOXC183_6Z_9Z_12Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_lnlncgcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c163_4Z_7Z_10Zcoa_m 
+R_FAOXC183_6Z_9Z_12Zx	R_FAOXC183_6Z_9Z_12Zx	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_lnlncgcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c163_4Z_7Z_10Zcoa_x 
+R_FAOXC183_9Z_12Z_15Zm	R_FAOXC183_9Z_12Z_15Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_lnlncacoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c163_7Z_10Z_13Zcoa_m 
+R_FAOXC184_3Z_6Z_9Z_12Zm	R_FAOXC184_3Z_6Z_9Z_12Zm	M_h2o_m + M_nad_m + M_coa_m + M_c184_3Z_6Z_9Z_12Zcoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_c163_4Z_7Z_10Zcoa_m 
+R_FAOXC184_3Z_6Z_9Z_12Zx	R_FAOXC184_3Z_6Z_9Z_12Zx	M_h2o_x + M_coa_x + M_nad_x + M_c184_3Z_6Z_9Z_12Zcoa_x  --> M_h_x + M_nadh_x + M_accoa_x + M_c163_4Z_7Z_10Zcoa_x 
+R_FAOXC184_6Z_9Z_12Z_15Zm	R_FAOXC184_6Z_9Z_12Z_15Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_strdnccoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c164_4Z_7Z_10Z_13Zcoa_m 
+R_FAOXC184_6Z_9Z_12Z_15Zx	R_FAOXC184_6Z_9Z_12Z_15Zx	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_strdnccoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c164_4Z_7Z_10Z_13Zcoa_x 
+R_FAOXC185_3Z_6Z_9Z_12Z_15Zm	R_FAOXC185_3Z_6Z_9Z_12Z_15Zm	M_h2o_m + M_nad_m + M_coa_m + M_c185_3Z_6Z_9Z_12Z_15Zcoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_c164_4Z_7Z_10Z_13Zcoa_m 
+R_FAOXC185_3Z_6Z_9Z_12Z_15Zx	R_FAOXC185_3Z_6Z_9Z_12Z_15Zx	M_h2o_x + M_coa_x + M_nad_x + M_c185_3Z_6Z_9Z_12Z_15Zcoa_x  --> M_h_x + M_nadh_x + M_accoa_x + M_c164_4Z_7Z_10Z_13Zcoa_x 
+R_FAOXC201181x	R_FAOXC201181x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c201coa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_ocde9ecoa_x 
+R_FAOXC204_5Z_8Z_11Z_14Zm	R_FAOXC204_5Z_8Z_11Z_14Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_arachdcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c184_3Z_6Z_9Z_12Zcoa_m 
+R_FAOXC204_5Z_8Z_11Z_14Zx	R_FAOXC204_5Z_8Z_11Z_14Zx	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_arachdcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c184_3Z_6Z_9Z_12Zcoa_x 
+R_FAOXC204184m2	R_FAOXC204184m2	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_eicostetcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_strdnccoa_m 
+R_FAOXC205_5Z_8Z_11Z_14Z_17Zm	R_FAOXC205_5Z_8Z_11Z_14Z_17Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_tmndnccoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c185_3Z_6Z_9Z_12Z_15Zcoa_m 
+R_FAOXC205_5Z_8Z_11Z_14Z_17Zx	R_FAOXC205_5Z_8Z_11Z_14Z_17Zx	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_tmndnccoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c185_3Z_6Z_9Z_12Z_15Zcoa_x 
+R_FAOXC220200x	R_FAOXC220200x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c220coa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_arachcoa_x 
+R_FAOXC221201x	R_FAOXC221201x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c221coa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c201coa_x 
+R_FAOXC225_4Z_7Z_10Z_13Z_16Zm	R_FAOXC225_4Z_7Z_10Z_13Z_16Zm	M_nadph_m + M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_dcsptn1coa_m  --> M_nadh_m + M_nadp_m + M_fadh2_m + M_accoa_m + M_arachdcoa_m 
+R_FAOXC225_4Z_7Z_10Z_13Z_16Zx	R_FAOXC225_4Z_7Z_10Z_13Z_16Zx	M_h2o_x + M_coa_x + M_o2_x + M_nadph_x + M_nad_x + M_dcsptn1coa_x  --> M_h2o2_x + M_nadp_x + M_nadh_x + M_accoa_x + M_arachdcoa_x
+R_FAOXC240220x	R_FAOXC240220x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_ttccoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c220coa_x 
+R_FAOXC241221x	R_FAOXC241221x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_nrvnccoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c221coa_x 
+R_FAOXC4020m	R_FAOXC4020m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_btcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + 2 M_accoa_m 
+R_FAOXC5030m	R_FAOXC5030m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c50coa_m  --> M_h_m + M_nadh_m + M_ppcoa_m + M_fadh2_m + M_accoa_m 
+R_FAOXC6040m	R_FAOXC6040m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c6coa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_btcoa_m 
+R_FAOXC61_3Zm	R_FAOXC61_3Zm	M_h2o_m + M_nad_m + M_coa_m + M_c61_3Zcoa_m  --> M_h_m + M_nadh_m + M_accoa_m + M_btcoa_m 
+R_FAOXC7050m	R_FAOXC7050m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c70coa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c50coa_m 
+R_FAOXC8060m	R_FAOXC8060m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_occoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c6coa_m 
+R_FAOXC81_5Zm	R_FAOXC81_5Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c81_5Zcoa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c61_3Zcoa_m 
+R_FAOXC9070m	R_FAOXC9070m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c90coa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c70coa_m 
+R_FAOXCPRIST1x	R_FAOXCPRIST1x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_pristcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_ppcoa_x + M_c13_trimethylcoa_x 
+R_FAOXCPRIST2x	R_FAOXCPRIST2x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c13_trimethylcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c11_trimethylcoa_x 
+R_FAOXCPRIST3x	R_FAOXCPRIST3x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c11_trimethylcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_ppcoa_x + M_dmnoncoa_x 

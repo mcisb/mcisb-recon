@@ -1,0 +1,113 @@
+R_4HATVLAChc	M_4hatvacid_c + M_atp_c --> M_4hatvlac_c + M_amp_c + M_ppi_c
+R_4HGLSDm	2.0 M_h_m + M_nadh_m + M_e4hglu_m --> M_h2o_m + M_nad_m + M_4hglusa_m
+R_AGLPR	M_h_c + M_akdhap_hs_c + M_nadp_c --> M_akgp_hs_c + M_nadph_c
+R_AGLPT	M_h_c + M_akgp_hs_c + M_nadph_c + M_Rtotal2coa_c --> M_h2o_c + M_ak2gp_hs_c + M_coa_c + M_nadp_c
+R_ARACHCRNt	M_arachcrn_c + M_crn_m --> M_arachcrn_m + M_crn_c
+R_ATVLAChc	M_atp_c + M_atvacid_c --> M_amp_c + M_atvlac_c + M_ppi_c
+R_C160CRNt	M_pmtcrn_c + M_crn_m --> M_pmtcrn_m + M_crn_c
+R_C180CRNt	M_stcrn_c + M_crn_m --> M_stcrn_m + M_crn_c
+R_DEDOLP1_L	M_h2o_c + 0.1 M_dedoldp_L_c --> M_h_c + M_pi_c + 0.1 M_dedolp_U_c
+R_DEDOLP2_L	M_h2o_c + 0.1 M_dedolp_U_c --> M_pi_c + 0.1 M_dedol_U_c
+R_DEDOLR_L	M_h_c + M_nadph_c + 0.1 M_dedol_U_c --> M_nadp_c + 0.1 M_dolichol_L_c
+R_DOLASNT_Ler	M_Asn_X_Ser_Thr_r + 0.1 M_g3m8mpdol_U_r --> M_h_r + 0.1 M_doldp_L_r + M_g3m8masn_r
+R_DOLGLCP_Lter	M_dolglcp_L_c --> M_dolglcp_L_r
+R_DOLICHOL_Lter	M_dolichol_L_r <=> M_dolichol_L_c
+R_DOLMANP_Lter	M_dolmanp_L_c --> M_dolmanp_L_r
+R_DOLP_Lter	0.1 M_dolglcp_L_r + 0.1 M_m8mpdol_L_r --> 0.1 M_dolp_L_r + M_h_r + 0.1 M_g1m8mpdol_U_r
+R_DOLPGT1_Ler	0.1 M_dolglcp_L_r + 0.1 M_g1m8mpdol_U_r --> 0.1 M_dolp_L_r + M_h_r + 0.1 M_g2m8mpdol_U_r
+R_DOLPGT2_Ler	0.1 M_dolglcp_L_r + 0.1 M_g2m8mpdol_U_r --> 0.1 M_dolp_L_r + M_h_r + 0.1 M_g3m8mpdol_U_r
+R_DOLPMT4_Ler	M_dolp_L_r --> M_dolp_L_c
+R_FAOXC11	M_h2o_m + M_coa_m + M_nad_m + M_dmnoncoa_m + M_fad_m --> M_h_m + M_nadh_m + M_accoa_m + M_dmhptcoa_m + M_fadh2_m
+R_FAOXC226205m	M_h2o_m + M_coa_m + M_nad_m + M_c226coa_m + M_nadph_m + M_fad_m --> M_h_m + M_nadh_m + M_accoa_m + M_tmndnccoa_m + M_nadp_m + M_fadh2_m
+R_FAOXC226205x	M_nad_x + M_coa_x + M_h2o_x + M_c226coa_x + M_nadph_x + M_fad_x --> M_h_x + M_nadh_x + M_accoa_x + M_tmndnccoa_x + M_nadp_x + M_fadh2_x
+R_GNDc	M_nadp_c + M_6pgc_c --> M_nadph_c + M_co2_c + M_ru5p_D_c
+R_HPETFABP1tc	M_5HPET_c <=> M_5HPET_r
+R_HPYRR2x	M_h_c + M_nadh_c + M_hpyr_c --> M_nad_c + M_glyc_S_c
+R_LVACLAChep	M_atp_c + M_lvstacid_c --> M_amp_c + M_lvst_c + M_ppi_c
+R_OCDEAFABP1tc	M_ocdcea_c <=> M_ocdcea_r
+R_PMTCOAFABP1tc	M_pmtcoa_c <=> M_pmtcoa_r
+R_r0309	M_h_m + M_nadph_m + M_hdd2coa_m --> M_nadp_m + M_pmtcoa_m
+R_r0434	M_coa_r + M_pmtcrn_r --> M_crn_r + M_pmtcoa_r 
+R_r0559	M_h2o_c + M_o2_c + M_HC01522_c --> M_h2o2_c + M_h_c + M_HC00460_c 
+R_r0626	M_dhcholoylcoa_c + M_h2o_c + 3.0 M_h_c + M_nadh_c --> M_thcholst_c + M_coa_c + M_nad_c
+R_r0633	M_h_m + M_nadph_m + M_HC01415_m --> M_nadp_m + M_occoa_m
+R_r0638	M_h_m + M_nadph_m + M_dd2coa_m --> M_nadp_m + M_ddcacoa_m
+R_r0644	M_h2o_c + M_o2_c + M_2mop_c --> M_h2o2_c + M_h_c + M_HC00900_c 
+R_r0652	M_h_m + M_nadph_m + M_HC01412_m --> M_nadp_m + M_tdcoa_m
+R_r0698	4.0 M_h_x + M_dcholcoa_x + M_ppcoa_x + M_nadh_x <=> M_coa_x + M_h2o_x + M_dhcholestancoa_x + M_nad_x
+R_r0735	M_h_m + M_nadph_m + M_dc2coa_m --> M_nadp_m + M_dcacoa_m
+R_r0983	M_st_l --> M_st_r
+R_r0984	M_st_l <=> M_st_c
+R_r1135	3.0 M_h_r + M_HC02109_r + M_nadph_r <=> M_HC02110_r + M_nadp_r
+R_r1146	2.0 M_h2o_r + M_HC02110_r + M_ahcys_r <=> M_zymst_r + 6.0 M_h_r + M_amet_r
+R_r1166	M_chsterol_r + M_stcoa_r --> M_coa_r + M_HC02022_r + 9.0 M_h_r
+R_r1175	M_h2o_r + M_HC02022_r --> M_chsterol_r + M_st_r
+R_r1176	M_h2o_l + M_HC02022_l --> M_chsterol_l + M_st_l
+R_r1253	M_atp_r + 8.0 M_h_r + M_coa_r + M_st_r --> M_amp_r + M_ppi_r + M_stcoa_r
+R_r1254	M_atp_c + 8.0 M_h_c + M_coa_c + M_strdnc_c + M_fadh2_c --> M_amp_c + M_ppi_c + M_stcoa_c + M_fad_c
+R_r1317	M_h2o_c + M_HC01988_c + M_fad_c <=> M_ACP_c + M_strdnc_c + M_fadh2_c
+R_r1453	M_pro_L_m + M_q10_m <=> 5.0 M_h_m + M_1pyr5c_m + M_q10h2_m
+R_r2438	M_crn_m + M_c4crn_c --> M_crn_c + M_c4crn_m
+R_r2510	M_crn_r + M_st_c <=> M_crn_c + M_st_r
+R_RE0702C	M_h2o_c + M_CE2011_c --> M_h2o2_c + M_h_c + M_tcynt_c 
+R_RE0702E	M_h2o_e + M_CE2011_e --> M_h_e + M_h2o2_e + M_tcynt_e 
+R_RE0702L	M_h2o_l + M_CE2011_l --> M_h_l + M_h2o2_l + M_tcynt_l 
+R_RE0702M	M_h2o_m + M_CE2011_m --> M_h_m + M_h2o2_m + M_tcynt_m 
+R_RE0702N	M_h2o_n + M_CE2011_n --> M_h_n + M_h2o2_n + M_tcynt_n 
+R_RE1050C	2.0 M_h2o_c + 6.0 M_h_c + 2.0 M_so3_c + 2.0 M_cynt_c --> 3.0 M_h2o2_c + 2.0 M_CE1950_c 
+R_RE1050E	6.0 M_h_e + 2.0 M_h2o_e + 2.0 M_so3_e + 2.0 M_cynt_e --> 3.0 M_h2o2_e + 2.0 M_CE1950_e 
+R_RE1050L	2.0 M_h2o_l + 6.0 M_h_l + 2.0 M_cynt_l + 2.0 M_so3_l --> 3.0 M_h2o2_l + 2.0 M_CE1950_l 
+R_RE1050N	2.0 M_h2o_n + 6.0 M_h_n + 2.0 M_cynt_n + 2.0 M_so3_n --> 3.0 M_h2o2_n + 2.0 M_CE1950_n 
+R_RE1810M	2.0 M_h_m + 2.0 M_nadph_m + M_xol7aone_m --> 2.0 M_nadp_m + M_xol7ah2_m
+R_RE2028C	M_CE5272_c <=> M_h_c + M_co2_c + M_CE1264_c + M_e_c
+R_RE2426C	M_h2o_c + M_melatn_c + M_etfrd_c + M_o2_c <=> 2.0 M_h_c + M_6hoxmelatn_c + M_etfox_c
+R_RE2440C	M_h_c + M_co2_c + M_for_c + 2.0 M_CE5860_c --> M_h2o2_c + 2.0 M_fna5moxam_c 
+R_RE2513C	M_h2o_c + M_CE4633_c --> M_h2o2_c + M_h_c + M_cl_c 
+R_RE2513E	M_h2o_e + M_CE4633_e --> M_h_e + M_cl_e + M_h2o2_e 
+R_RE2513L	M_h2o_l + M_CE4633_l --> M_h_l + M_h2o2_l + M_cl_l 
+R_RE2513N	M_h2o_n + M_CE4633_n --> M_h_n + M_h2o2_n + M_cl_n 
+R_RE2591C	M_urate_c <=> M_CE6252_c + M_e_c
+R_RE2704C	M_CE1924_c <=> M_h_c + M_CE7047_c + M_e_c
+R_RE2864C	2.0 M_h_c + M_CE6444_c + M_ascb_L_c <=> M_h2o_c + M_CE6453_c + M_dhdascb_c
+R_RE2865C	2.0 M_h_c + M_CE6444_c + M_ascb_L_c <=> M_h2o_c + M_CE6452_c + M_dhdascb_c
+R_RE2875C	2.0 M_h_c + M_CE6449_c + M_ascb_L_c <=> M_h2o_c + M_CE6463_c + M_dhdascb_c
+R_RE2876C	2.0 M_h_c + M_CE6450_c + M_ascb_L_c <=> M_h2o_c + M_CE6464_c + M_dhdascb_c
+R_RE2877C	2.0 M_h_c + M_CE6450_c + M_ascb_L_c <=> M_h2o_c + M_CE6465_c + M_dhdascb_c
+R_RE2888C	M_urea_c + M_CE0074_c --> M_h2o2_c + M_urate_c 
+R_RE2888E	M_urea_e + M_CE0074_e --> M_h2o2_e + M_urate_e 
+R_RE2888N	M_urea_n + M_CE0074_n --> M_h2o2_n + M_urate_n 
+R_RE2898C	M_C01041_c <=> M_dhdascb_c + M_e_c + M_h_c
+R_RE2973G	M_atp_g + M_CE5101_g <=> M_h_g + M_adp_g + M_pail35p_hs_g
+R_RE2974G	M_atp_g + M_pail3p_hs_g <=> M_h_g + M_adp_g + M_pail35p_hs_g
+R_RE3095C	2.0 M_h2o_c + M_CE5276_c --> M_h2o2_c + M_dopa_c 
+R_RE3095L	2.0 M_h2o_l + M_CE5276_l --> M_h2o2_l + M_dopa_l 
+R_RE3095X	2.0 M_h2o_x + M_CE5276_x --> M_h2o2_x + M_dopa_x 
+R_RE3111C	M_h_c + M_nad_c + M_C04295_c + M_nadph_c <=> M_nadh_c + M_5adtststerone_c + M_nadp_c
+R_RE3111M	M_h_m + M_nad_m + M_C04295_m + M_nadph_m <=> M_nadh_m + M_5adtststerone_m + M_nadp_m
+R_RE3111R	M_h_r + M_nad_r + M_C04295_r + M_nadph_r <=> M_5adtststerone_r + M_nadh_r + M_nadp_r
+R_RE3180C	M_o2_c + 3.0 M_C05109_c + M_nadph_c <=> 2.0 M_h2o_c + 3.0 M_CE2313_c + 4.0 M_CE5049_c + M_for_c + M_nadp_c
+R_RE3181C	M_o2_c + 3.0 M_lanost_c + M_nadph_c <=> 2.0 M_h2o_c + 3.0 M_44mctr_c + 4.0 M_CE5049_c + M_for_c + M_nadp_c
+R_RE3410C	M_CE6502_c <=> M_CE5528_c + M_h_c + M_e_c
+R_RE3420C	M_CE6504_c + M_nad_c <=> 3.0 M_h_c + M_CE2577_c + M_C08261_c + M_nadh_c
+R_RE3453C	4.0 M_h_c + M_CE5926_c + M_ascb_L_c <=> M_h2o_c + M_CE5929_c + M_dhdascb_c
+R_RE3459C	4.0 M_h_c + M_CE5533_c + M_ascb_L_c <=> M_h2o_c + M_CE5924_c + M_dhdascb_c
+R_RE3490C	2.0 M_h_c + M_CE7080_c + M_ascb_L_c <=> M_h2o_c + M_CE7082_c + M_dhdascb_c
+R_RE3493C	2.0 M_h_c + M_CE6508_c + M_ascb_L_c <=> M_h2o_c + M_CE7085_c + M_dhdascb_c
+R_RE3535R	2.0 M_h_r + M_prostgd2_r + M_ascb_L_r <=> M_h2o_r + M_CE6240_r + M_dhdascb_r
+R_RE3570C	2.0 M_h_c + M_CE6230_c + M_ascb_L_c <=> M_h2o_c + M_CE2537_c + M_dhdascb_c
+R_RN0013C	M_adrnl_c + M_o2_c --> 5.0 M_h_c + M_CE5536_c
+R_SFCYSc	M_h_c + M_so4_c + M_cys_L_c <=> M_slfcys_c
+R_SMVLAChep	M_atp_c + M_smvacid_c --> M_amp_c + M_ppi_c + M_smv_c
+R_SOAT12	M_pmtcoa_c + M_chsterol_c --> M_coa_c + M_xolest2_hs_c
+R_TTDCRNt	M_ttdcrn_c + M_crn_m --> M_ttdcrn_m + M_crn_c
+R_UNK2	2.0 M_h_c + M_gln_L_c + M_2kmb_c --> M_HC00591_c + M_met_L_c
+
+# Oxphos protons:		
+R_ASPGLUm	M_h_i + M_glu_L_c + M_asp_L_m --> M_h_m + M_glu_L_m + M_asp_L_c
+R_ATPS4m	4.0 M_h_i + M_adp_m + M_pi_m --> 3.0 M_h_m + M_h2o_m + M_atp_m
+R_CYOOm3	7.92 M_h_m + M_o2_m + 4.0 M_focytC_m --> 1.96 M_h2o_m + 4.0 M_h_i + 4.0 M_ficytC_m
+R_CYOR_u10m	2.0 M_h_m + 2.0 M_ficytC_m + M_q10h2_i --> 4.0 M_h_i + M_q10_i + 2.0 M_focytC_m
+R_FADH2ETC	M_fadh2_m + M_q10_i --> M_fad_m + M_q10h2_i
+R_NADH2_u10m	5.0 M_h_m + M_nadh_m + M_q10_i --> 4.0 M_h_i + M_nad_m + M_q10h2_i
+R_SUCOAS1m	M_coa_m + M_gtp_m + M_succ_m + M_h_m <=> M_pi_m + M_gdp_m + M_succoa_m + M_h_i
+R_SUCOASm	M_coa_m + M_atp_m + M_succ_m + M_h_m <=> M_adp_m + M_pi_m + M_succoa_m + M_h_i

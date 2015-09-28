@@ -1,0 +1,151 @@
+# Lumped fatty acid synthesis reactions:
+R_KAS8
+
+# Lumped fatty acid oxidation reactions:
+R_FAOXC140
+R_FAOXC150m
+R_FAOXC160
+R_FAOXC16080m
+R_FAOXC16080x
+R_FAOXC161802m
+R_FAOXC16180m
+R_FAOXC170m
+R_FAOXC1811602m
+R_FAOXC1811603m
+R_FAOXC18280m
+R_FAOXC183803m
+R_FAOXC18480m
+R_FAOXC18480x
+R_FAOXC204
+R_FAOXC226
+R_FAOXC240200x
+R_FAOXC241181x
+R_FAOXC80
+R_PEROXx
+
+# Existing fatty acid oxidation reactions also added by UCSD:
+R_FAOXC10C8m
+R_FAOXC10C8x
+R_FAOXC12C10m
+R_FAOXC12C10x
+R_FAOXC14C12m
+R_FAOXC14C12x
+R_FAOXC16C14m
+R_FAOXC16C14x
+R_FAOXC17C15m
+R_FAOXC204184m
+R_FAOXC4C2m
+R_FAOXC6C4m
+R_FAOXC8C6m
+
+# Artificial reactions:
+R_ARTFR13
+R_ARTFR202
+R_ARTFR203
+R_ARTFR204
+R_ARTFR205
+R_ARTFR206
+R_ARTFR208
+R_ARTFR209
+R_ARTFR210
+R_ARTFR211
+R_ARTFR212
+R_ARTFR213
+R_ARTFR32
+R_ARTFR33
+R_ARTFR34
+R_ARTFR41
+R_ARTFR42
+R_ARTFR43
+R_ARTFR44
+R_ARTFR45
+R_ARTFR46
+R_ARTFR52
+R_ARTFR53
+R_ARTFR54
+R_ARTFR55
+R_ARTFR56
+R_ARTFR57
+R_ARTFR61
+R_RTOT_3
+R_RTOT2
+R_RTOT3
+R_RTOT4
+R_RTOT5
+
+# Duplicates
+# R_BTNt3ile removed: duplicate of R_BTNt3i
+# R_G6PDH2c removed: duplicate of R_G6PDH2r
+# R_GND removed: duplicate of R_GNDc
+# R_GSNt4 removed: duplicate of R_GSNt5le
+# R_HISSNAT5tc removed: duplicate of R_HIStN1
+# R_INSt4 removed: duplicate of R_INSt5le
+# R_PEHSFABPe removed: duplicate of R_PE_HSter
+# R_PGLc removed: duplicate of R_PGL
+# R_PNTOt5le removed: duplicate of R_PNTOt5
+# R_r0439 removed: duplicate of R_LNLCCPT1
+# R_r1015 removed: duplicate of R_TCHOLAt2
+# R_r1090 removed: duplicate of R_CITt4_2
+# R_r1134 removed: duplicate of R_C4STMO1r
+# R_r1163 removed: duplicate of R_GCHOLAt2
+# R_r1394 removed: duplicate of R_C181CPT1
+# R_r1395 removed: duplicate of R_C181CPT2
+# R_r1540 removed: duplicate of R_TAUBETAtc
+# R_r2412 removed: duplicate of R_ORNt4m
+# R_r2439 removed: duplicate of R_SO4HCOtex
+# R_RPEc removed: duplicate of R_RPE
+R_BTNt3ile
+R_G6PDH2c
+R_GND
+R_GSNt4
+R_HISSNAT5tc
+R_INSt4
+R_PEHSFABPe
+R_PGLc
+R_PNTOt5le
+R_r0439
+R_r1015
+R_r1090
+R_r1134
+R_r1163
+R_r1394
+R_r1395
+R_r1540
+R_r2412
+R_r2439
+R_RPEc
+
+# Miscellaneous
+R_AIRCr
+R_PMTCOAtx
+R_PRASCS
+R_r0023
+R_r0060
+R_r0509
+R_r0701
+R_r0999
+R_r1293
+R_r1314
+R_r1317
+R_r1393
+R_r1398
+R_r1399
+R_r1402
+R_r1403
+R_r1428
+R_r1435
+R_r1453
+R_r1467
+R_r1468
+R_r2435
+R_r2497
+R_r2498
+R_RE0344C
+R_RE0577C
+R_RE1342C
+R_RE1836X
+R_RE2591C
+R_RE2782C
+R_RE2977C
+R_RE3627C
+R_STCOAtx
