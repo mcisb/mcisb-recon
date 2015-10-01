@@ -12,7 +12,7 @@ function [flux, model] = maxFlux(modelFilename, carbon_source, objective, normox
     model = blockAllImports(model);
     
     % Define carbon source:
-    model = changeRxnBounds(model, carbon_source, 1, 'b');
+    model = changeRxnBounds(model, carbon_source, 1000, 'b');
     
     % Define media:
     model = changeRxnBounds(model, media, 1000, 'u');
