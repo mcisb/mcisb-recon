@@ -1,5 +1,8 @@
 /target/
+/.settings/
+/**/.DS_Store
+/**/model.mat*
+/**/*.m~
+/jsbml.log
 /.classpath
 /.project
-/**/.DS_Store
-/.settings/

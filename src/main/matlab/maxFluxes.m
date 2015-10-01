@@ -1,7 +1,5 @@
 function maxFluxes(modelFilename)
     
-    changeCobraSolver('gurobi5');
-
     model = readCbModel(modelFilename);
     
     % Allow unlimited pi, h in mitochondria:
@@ -10,64 +8,50 @@ function maxFluxes(modelFilename)
     save model;
     modelFilename = 'model.mat';
     
-    % Media:
-    media = [ {'EX_ca2(e)'} {'EX_cl(e)'} {'EX_fe2(e)'} {'EX_fe3(e)'} {'EX_h(e)'} {'EX_h2o(e)'} {'EX_k(e)'} {'EX_na1(e)'} {'EX_nh4(e)'} {'EX_so4(e)'} {'EX_pi(e)'} ];
+    % Carbon sources:
+    carbon_sources = {'EX_glc(e)'; 'EX_fru(e)'; 'EX_but(e)';
+        'EX_hx(e)'; 'EX_octa(e)'; 'EX_dca(e)'; 'EX_ddca(e)';
+        'EX_ttdca(e)'; 'EX_hdca(e)'; 'EX_ocdca(e)'; 'EX_arach(e)';
+        'EX_docosac(e)'; 'EX_lgnc(e)'; 'EX_hexc(e)'; 'EX_ala_L(e)';
+        'EX_arg_L(e)'; 'EX_asn_L(e)'; 'EX_asp_L(e)'; 'EX_cys_L(e)';
+        'EX_gln_L(e)'; 'EX_glu_L(e)'; 'EX_gly(e)'; 'EX_his_L(e)';
+        'EX_ile_L(e)'; 'EX_leu_L(e)'; 'EX_lys_L(e)'; 'EX_met_L(e)';
+        'EX_phe_L(e)'; 'EX_pro_L(e)'; 'EX_ser_L(e)'; 'EX_thr_L(e)';
+        'EX_trp_L(e)'; 'EX_tyr_L(e)'; 'EX_val_L(e)'};
     
-    % Objective:
+    % Normoxia:
+    normoxia = [1; 0];
+    
+    % Media:
+    simple_media = {'EX_ca2(e)'; 'EX_cl(e)'; 'EX_fe2(e)'; 'EX_fe3(e)';
+        'EX_h(e)'; 'EX_h2o(e)'; 'EX_k(e)'; 'EX_na1(e)'; 'EX_nh4(e)';
+        'EX_so4(e)'; 'EX_pi(e)'};
+    
+    complex_media = {'EX_ca2(e)'; 'EX_cl(e)'; 'EX_fe2(e)'; 'EX_fe3(e)';
+        'EX_h(e)'; 'EX_h2o(e)'; 'EX_k(e)'; 'EX_na1(e)'; 'EX_nh4(e)';
+        'EX_so4(e)'; 'EX_pi(e)'};
+    
+    % Objective: growth:
+    objective = 'biomass_reaction';
+    
+    % Growth maximisation:
+    maxAllFluxes(modelFilename, objective, carbon_sources, normoxia, complex_media);
+
+    % Objective: ATP maximisation:
     objective = 'DM_atp_c_';
     
-    % Normoxic:
-    normoxic = 1;
-    maxAllFluxes(modelFilename, objective, normoxic, media);
-    
-    % Anaerobic:
-    normoxic = 0;
-    maxAllFluxes(modelFilename, objective, normoxic, media);
+    % ATP maximisation:
+    maxAllFluxes(modelFilename, objective, carbon_sources, normoxia, simple_media);
     
 end
 
 
-function maxAllFluxes(modelFilename, objective, normoxic, media)
-    
-    % Sugars:
-    maxFlux(modelFilename, 'EX_glc(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_fru(e)', objective, normoxic, media);
-    
-    % Fatty acids:
-    % maxFlux(modelFilename, 'EX_ppa(e)', objective, normoxic, media); % C3:0
-    maxFlux(modelFilename, 'EX_but(e)', objective, normoxic, media); % C4:0
-    maxFlux(modelFilename, 'EX_hx(e)', objective, normoxic, media); % C6:0
-    maxFlux(modelFilename, 'EX_octa(e)', objective, normoxic, media); % C8:0
-    maxFlux(modelFilename, 'EX_dca(e)', objective, normoxic, media); % C10:0
-    maxFlux(modelFilename, 'EX_ddca(e)', objective, normoxic, media); % C12:0
-    maxFlux(modelFilename, 'EX_ttdca(e)', objective, normoxic, media); % C14:0
-    maxFlux(modelFilename, 'EX_hdca(e)', objective, normoxic, media); % C16:0
-    maxFlux(modelFilename, 'EX_ocdca(e)', objective, normoxic, media); % C18:0
-    maxFlux(modelFilename, 'EX_arach(e)', objective, normoxic, media); % C20:0
-    maxFlux(modelFilename, 'EX_docosac(e)', objective, normoxic, media); % C22:0
-    maxFlux(modelFilename, 'EX_lgnc(e)', objective, normoxic, media); % C24:0
-    maxFlux(modelFilename, 'EX_hexc(e)', objective, normoxic, media); % C26:0
-    
-    % Amino acids:
-    maxFlux(modelFilename, 'EX_ala_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_arg_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_asn_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_asp_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_cys_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_gln_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_glu_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_gly(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_his_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_ile_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_leu_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_lys_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_met_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_phe_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_pro_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_ser_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_thr_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_trp_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_tyr_L(e)', objective, normoxic, media);
-    maxFlux(modelFilename, 'EX_val_L(e)', objective, normoxic, media);
+function maxAllFluxes(modelFilename, objective, carbon_sources, normoxia, media)
+
+    for i = 1:size(normoxia,1)
+        for j = 1:size(carbon_sources,1)
+            maxFlux(modelFilename, carbon_sources{j}, objective, normoxia(i), media);
+        end
+    end
     
 end

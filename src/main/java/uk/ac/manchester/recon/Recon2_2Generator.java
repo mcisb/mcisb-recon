@@ -273,7 +273,7 @@ public class Recon2_2Generator
 		SbmlDeleter.deleteSpecies( model, new File( args[ 12 ] ) , true );
 		System.out.println();
 		
-		System.out.println( "Deleting modifiers..." ); //$NON-NLS-1$
+		System.out.println( "Deleting species..." ); //$NON-NLS-1$
 		SbmlDeleter.deleteSpecies( model, new File( args[ 13 ] ) , false );
 		System.out.println();
 		

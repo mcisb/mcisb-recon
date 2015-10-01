@@ -26,12 +26,12 @@ function [flux, model] = maxFlux(modelFilename, carbon_source, objective, normox
     FBAsolution = optimizeCbModel(model, 'max', 'one');
     
     if FBAsolution.f == 0
-        fprintf('%s\t%d\tNo solution found\n', carbon_source, normoxic);
+        fprintf('%s\t%s\t%d\tNo solution found\n', objective, carbon_source, normoxic);
     else
         flux = getFluxValue(model, objective, FBAsolution);
         result_filename_stem = strcat(modelFilename, '_', carbon_source, '_', objective, '_', num2str(normoxic));
         writeResult(model, FBAsolution, strcat(result_filename_stem, '.xls'));
         writeFusionTable(model, FBAsolution, strcat(result_filename_stem, '.txt'));
-        fprintf('%s\t%d\t%.2f\n', carbon_source, normoxic, flux);
+        fprintf('%s\t%s\t%d\t%.2f\n', objective, carbon_source, normoxic, flux);
     end
 end
