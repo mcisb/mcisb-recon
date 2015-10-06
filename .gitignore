@@ -3,6 +3,7 @@
 /**/.DS_Store
 /**/model.mat*
 /**/*.m~
+/**/*.xls
 /jsbml.log
 /.classpath
 /.project
