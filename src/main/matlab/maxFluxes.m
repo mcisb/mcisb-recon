@@ -32,10 +32,10 @@ function maxFluxes(modelFilename)
         'EX_so4(e)'; 'EX_pi(e)'};
     
     % Objective: growth:
-    objective = 'biomass_reaction';
+    % objective = 'biomass_reaction';
     
     % Growth maximisation:
-    maxAllFluxes(modelFilename, objective, carbon_sources, normoxia, complex_media);
+    % maxAllFluxes(modelFilename, objective, carbon_sources, normoxia, complex_media);
 
     % Objective: ATP maximisation:
     objective = 'DM_atp_c_';
