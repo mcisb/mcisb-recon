@@ -1,0 +1,21 @@
+mvn clean package
+java -Djava.library.path="/usr/local/lib/:/usr/local/lib/jni/" -jar target/mcisb-recon-1.0.0-SNAPSHOT-jar-with-dependencies.jar \
+bin/recon_2.1.5.xml \
+recon_2.2.xml \
+bin/compartmentsToAdd.txt \
+bin/speciesToAdd.txt \
+bin/reactionsToAdd.txt \
+bin/speciesAnnotationsToUpdate.txt \
+bin/speciesFormulaeToUpdate.txt \
+bin/speciesChargesToUpdate.txt \
+bin/speciesInchisToUpdate.txt \
+bin/reactionsToUpdate.txt \
+bin/reactionReversibilitiesToUpdate.txt \
+bin/reactionGeneAssociationsToUpdate.txt \
+bin/speciesToRemoveWithReactions.txt \
+bin/speciesToRemove.txt \
+bin/reactionsToRemove.txt \
+bin/speciesNamesToUpdate.txt \
+bin/reactionNamesToUpdate.txt \
+bin/speciesIdsToUpdate.txt \
+bin/reactionIdsToUpdate.txt

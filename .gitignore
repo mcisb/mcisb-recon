@@ -4,6 +4,7 @@
 /**/model.mat*
 /**/*.m~
 /**/*.xls
-/jsbml.log
+/**/jsbml.log
 /.classpath
 /.project
+/recon_2.2.xml
