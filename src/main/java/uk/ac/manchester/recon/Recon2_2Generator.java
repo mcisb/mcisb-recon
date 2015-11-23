@@ -191,9 +191,6 @@ public class Recon2_2Generator
 		SbmlCreator.createReactions( model, new File( args[ 4 ] ) );
 		System.out.println();
 		
-		// Update:
-		// SbmlUpdater.unblockReactions( model );
-		
 		System.out.println( "Reformatting charges..." ); //$NON-NLS-1$
 		SbmlUpdater.updateCharges( model );
 		System.out.println();
@@ -235,6 +232,7 @@ public class Recon2_2Generator
 		System.out.println();
 		
 		System.out.println( "Updating reactions..." ); //$NON-NLS-1$
+		SbmlUpdater.flipExchangeReactions( model );
 		SbmlUpdater.updateReactions( model, new File( args[ 9 ] ) );
 		System.out.println();
 
