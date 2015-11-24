@@ -280,7 +280,8 @@ public class Recon2_2Generator
 		System.out.println();
 		
 		System.out.println( "Cleaning document: rebalancing, fixing -R groups, deleting unbalanced, dead-end metabolites..." ); //$NON-NLS-1$
-		SbmlDeleter.clean( document );
+		final int MAX_STOICH_COEFF = 4;
+		SbmlDeleter.clean( document, MAX_STOICH_COEFF );
 		System.out.println();
 		
 		System.out.println( "Deleting duplicate species..." ); //$NON-NLS-1$
