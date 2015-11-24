@@ -1,11 +1,13 @@
-function [flux, model] = maxFlux(modelFilename, carbon_source, objective, normoxic, media)
+function [flux, model] = maxFlux(modelFilename, carbon_source, objective, normoxic, media, model)
     
-    if regexp(modelFilename, regexptranslate('wildcard', '*.xml'))
-        model = readCbModel(modelFilename);
-        save model;
-    else
-        model_obj = load(modelFilename);
-        model = model_obj.model;
+    if (nargin < 6)
+        if regexp(modelFilename, regexptranslate('wildcard', '*.xml'))
+            model = readCbModel(modelFilename);
+            save model;
+        else
+            model_obj = load(modelFilename);
+            model = model_obj.model;
+        end
     end
     
     % Block import reactions:
@@ -29,7 +31,7 @@ function [flux, model] = maxFlux(modelFilename, carbon_source, objective, normox
         fprintf('%s\t%s\t%d\tNo solution found\n', objective, carbon_source, normoxic);
     else
         flux = getFluxValue(model, objective, FBAsolution);
-        result_filename_stem = strcat(modelFilename, '_', carbon_source, '_', objective, '_', num2str(normoxic));
+        result_filename_stem = strcat(carbon_source, '_', objective, '_', num2str(normoxic));
         writeResult(model, FBAsolution, strcat(result_filename_stem, '.xls'));
         writeFusionTable(model, FBAsolution, strcat(result_filename_stem, '.txt'));
         fprintf('%s\t%s\t%d\t%.2f\n', objective, carbon_source, normoxic, flux);

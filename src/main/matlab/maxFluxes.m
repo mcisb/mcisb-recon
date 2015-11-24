@@ -31,17 +31,36 @@ function maxFluxes(modelFilename)
         'EX_h(e)'; 'EX_h2o(e)'; 'EX_k(e)'; 'EX_na1(e)'; 'EX_nh4(e)';
         'EX_so4(e)'; 'EX_pi(e)'};
     
+    % Objective: target compounds, growth on glucose, aerobic:
+    target_compounds = {'pmtcoa[c]'; 'chsterol[c]'; 'tag_hs[c]'; 'dag_hs[c]';
+        'mag_hs[c]'; 'crm_hs[c]'; 'pa_hs[c]'; 'pe_hs[c]'; 'ps_hs[c]'; 'ala_L[c]';
+        'arg_L[c]'; 'asn_L[c]'; 'asp_L[c]'; 'gln_L[c]'; 'glu_L[c]'; 'gly[c]';
+        'pro_L[c]'; 'ser_L[c]'; 'ctp[c]'; 'utp[c]'; '3pg[c]'; 'accoa[m]'; 'akg[m]';
+        'e4p[c]'; 'f6p[c]'; 'g3p[c]'; 'g6p[c]'; 'oaa[m]'; 'pep[c]'; 'pyr[c]';
+        'r5p[c]'; 'succoa[m]'};
+    
+    for i = 1:size(target_compounds,1)
+        target_compound = target_compounds{i};
+        reaction_def = sprintf('%s --> ', target_compound);
+        reaction_name = target_compound;
+        model = addReaction(model, reaction_name, reaction_def);
+        maxFlux(0, 'EX_glc(e)', reaction_name, 1, simple_media, model);
+        model = removeRxns(model, reaction_name);
+    end
+    
     % Objective: growth:
-    % objective = 'biomass_reaction';
+    objective = 'biomass_reaction';
     
     % Growth maximisation:
-    % maxAllFluxes(modelFilename, objective, carbon_sources, normoxia, complex_media);
+    maxAllFluxes(modelFilename, objective, carbon_sources, normoxia, complex_media);
 
     % Objective: ATP maximisation:
     objective = 'DM_atp_c_';
     
     % ATP maximisation:
     maxAllFluxes(modelFilename, objective, carbon_sources, normoxia, simple_media);
+    
+
     
 end
 
