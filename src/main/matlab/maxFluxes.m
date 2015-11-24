@@ -2,9 +2,6 @@ function maxFluxes(modelFilename)
     
     model = readCbModel(modelFilename);
     
-    % Allow unlimited pi, h in mitochondria:
-    model = addReaction(model, 'pi_transport_c_m', 'pi[c] <=> pi[m]');
-    
     save model;
     modelFilename = 'model.mat';
     
