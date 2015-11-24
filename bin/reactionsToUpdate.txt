@@ -9,6 +9,7 @@ R_C180CRNt	M_stcrn_c + M_crn_m --> M_stcrn_m + M_crn_c
 R_DEDOLP1_L	M_h2o_c + 0.1 M_dedoldp_L_c --> M_h_c + M_pi_c + 0.1 M_dedolp_U_c
 R_DEDOLP2_L	M_h2o_c + 0.1 M_dedolp_U_c --> M_pi_c + 0.1 M_dedol_U_c
 R_DEDOLR_L	M_h_c + M_nadph_c + 0.1 M_dedol_U_c --> M_nadp_c + 0.1 M_dolichol_L_c
+R_DHORD9	M_q10_i + M_dhor_S_c --> M_q10h2_i + M_orot_c
 R_DOLASNT_Ler	M_Asn_X_Ser_Thr_r + 0.1 M_g3m8mpdol_U_r --> M_h_r + 0.1 M_doldp_L_r + M_g3m8masn_r
 R_DOLGLCP_Lter	M_dolglcp_L_c --> M_dolglcp_L_r
 R_DOLICHOL_Lter	M_dolichol_L_r <=> M_dolichol_L_c
