@@ -95,4 +95,4 @@ R_FAOXC81_5Zm	R_FAOXC81_5Zm	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c81_5Zcoa_
 R_FAOXC9070m	R_FAOXC9070m	M_h2o_m + M_nad_m + M_coa_m + M_fad_m + M_c90coa_m  --> M_h_m + M_nadh_m + M_fadh2_m + M_accoa_m + M_c70coa_m 
 R_FAOXCPRIST1x	R_FAOXCPRIST1x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_pristcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_ppcoa_x + M_c13_trimethylcoa_x 
 R_FAOXCPRIST2x	R_FAOXCPRIST2x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c13_trimethylcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_accoa_x + M_c11_trimethylcoa_x 
-R_FAOXCPRIST3x	R_FAOXCPRIST3x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c11_trimethylcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_ppcoa_x + M_dmnoncoa_x 
+R_FAOXCPRIST3x	R_FAOXCPRIST3x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c11_trimethylcoa_x  --> M_h_x + M_h2o2_x + M_nadh_x + M_ppcoa_x + M_dmnoncoa_x

@@ -75,7 +75,7 @@ M_c4crn_[a-z]	http://identifiers.org/chebi/CHEBI:7676
 M_c6crn_[a-z]	http://identifiers.org/chebi/CHEBI:70749
 M_c81coa_[a-z]	http://identifiers.org/chebi/CHEBI:27537
 M_c8crn_[a-z]	http://identifiers.org/chebi/CHEBI:18102
-M_CE0328_[a-z]	http://identifiers.org/chebi/CHEBI:28125
+M_CE0328_[a-z]	http://identifiers.org/chebi/CHEBI:77016
 M_CE0737_[a-z]	http://identifiers.org/chebi/CHEBI:566274
 M_CE1243_[a-z]	http://identifiers.org/chebi/CHEBI:63977
 M_CE1554_[a-z]	http://identifiers.org/chebi/CHEBI:40992
@@ -130,6 +130,7 @@ M_CE5782_[a-z]	http://identifiers.org/chebi/CHEBI:64628
 M_CE5924_[a-z]	http://identifiers.org/chebi/CHEBI:15553
 M_CE6247_[a-z]	http://identifiers.org/chebi/CHEBI:15646
 M_CE6415_[a-z]	http://identifiers.org/chebi/CHEBI:15657
+M_CE6429_[a-z]	http://identifiers.org/chebi/CHEBI:83336
 M_chtn_[a-z]	http://identifiers.org/chebi/CHEBI:17029
 M_cl_[a-z]	http://identifiers.org/chebi/CHEBI:17996
 M_co2_[a-z]	http://identifiers.org/chebi/CHEBI:16526
@@ -256,6 +257,8 @@ M_maltttr_[a-z]	http://identifiers.org/chebi/CHEBI:28460
 M_mdz_[a-z]	http://identifiers.org/chebi/CHEBI:6931
 M_mepi_[a-z]	http://identifiers.org/chebi/CHEBI:6270
 M_mercplac_[a-z]	http://identifiers.org/chebi/CHEBI:28580
+M_mi13456p_[a-z]	http://identifiers.org/chebi/CHEBI:16322
+M_minohp_[a-z]	http://identifiers.org/chebi/CHEBI:17401
 M_na1_[a-z]	http://identifiers.org/chebi/CHEBI:29101
 M_nac_[a-z]	http://identifiers.org/chebi/CHEBI:15940
 M_ncam_[a-z]	http://identifiers.org/chebi/CHEBI:17154

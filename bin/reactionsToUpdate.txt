@@ -102,6 +102,9 @@ R_SOAT12	M_pmtcoa_c + M_chsterol_c --> M_coa_c + M_xolest2_hs_c
 R_TTDCRNt	M_ttdcrn_c + M_crn_m --> M_ttdcrn_m + M_crn_c
 R_UNK2	2.0 M_h_c + M_gln_L_c + M_2kmb_c --> M_HC00591_c + M_met_L_c
 
+R_SCP2x	M_coa_x + M_dhocholoylcoa_x --> M_dcholcoa_x + M_ppcoa_x
+R_HSD17B42x	M_h2o_x + M_nadp_x + M_dhcholoylcoa_x --> M_h_x + M_nadph_x + M_dhocholoylcoa_x
+
 # Oxphos protons:		
 R_ASPGLUm	M_h_i + M_glu_L_c + M_asp_L_m --> M_h_m + M_glu_L_m + M_asp_L_c
 R_ATPS4m	4.0 M_h_i + M_adp_m + M_pi_m --> 3.0 M_h_m + M_h2o_m + M_atp_m
