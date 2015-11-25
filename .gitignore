@@ -3,7 +3,9 @@
 /**/.DS_Store
 /**/model.mat*
 /**/*.m~
-/**/*.xls
+/src/main/matlab/*.txt
+/src/main/matlab/*.xls
+/EX_arach(e)_DM_atp_c__1.txt
 /**/jsbml.log
 /.classpath
 /.project
