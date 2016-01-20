@@ -50,6 +50,13 @@ public class Recon2_2Generator
 		smallbone.setEmail( "kieran.smallbone@manchester.ac.uk" ); //$NON-NLS-1$
 		modelHistory.addCreator( smallbone );
 		
+		final Creator hefzi = new Creator();
+		hefzi.setGivenName( "Hooman" ); //$NON-NLS-1$
+		hefzi.setFamilyName( "Hefzi" ); //$NON-NLS-1$
+		hefzi.setOrganisation( "University of California, San Diego" ); //$NON-NLS-1$
+		hefzi.setEmail( "hhefzi@ucsd.edu" ); //$NON-NLS-1$
+		modelHistory.addCreator( hefzi );
+		
 		final Creator dobson = new Creator();
 		dobson.setGivenName( "Paul" ); //$NON-NLS-1$
 		dobson.setFamilyName( "Dobson" ); //$NON-NLS-1$
