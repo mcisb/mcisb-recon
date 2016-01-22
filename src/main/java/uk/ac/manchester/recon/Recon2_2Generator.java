@@ -239,7 +239,7 @@ public class Recon2_2Generator
 		System.out.println();
 		
 		System.out.println( "Updating reactions..." ); //$NON-NLS-1$
-		SbmlUpdater.flipExchangeReactions( model );
+		// SbmlUpdater.flipExchangeReactions( model );
 		SbmlUpdater.updateReactions( model, new File( args[ 9 ] ) );
 		System.out.println();
 
