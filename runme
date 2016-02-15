@@ -1,5 +1,5 @@
 mvn clean package
-java -Djava.library.path="/usr/local/lib/:/usr/local/lib/jni/" -jar target/mcisb-recon-1.0.0-SNAPSHOT-jar-with-dependencies.jar \
+java -Xmx4096m -Djava.library.path="/usr/local/lib/:/usr/local/lib/jni/" -jar target/mcisb-recon-1.0.0-SNAPSHOT-jar-with-dependencies.jar \
 bin/recon_2.1.5.xml \
 recon_2.2.xml \
 bin/compartmentsToAdd.txt \
