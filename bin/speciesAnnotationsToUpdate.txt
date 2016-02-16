@@ -296,7 +296,7 @@ M_ppmi12346p_[a-z]	http://identifiers.org/chebi/CHEBI:30164
 M_ppmi1346p_[a-z]	http://identifiers.org/chebi/CHEBI:17401
 M_pre_prot_[a-z]	http://identifiers.org/chebi/CHEBI:63419
 M_progly_[a-z]	http://identifiers.org/chebi/CHEBI:61695
-M_ps_hs_[a-z]	http://identifiers.org/chebi/CHEBI:18303
+M_ps_hs_[a-z]	http://identifiers.org/chebi/CHEBI:58436
 M_ptdca_[a-z]	http://identifiers.org/chebi/CHEBI:42504
 M_pvs_[a-z]	http://identifiers.org/chebi/CHEBI:63618
 M_q10_[a-z]	http://identifiers.org/chebi/CHEBI:46245

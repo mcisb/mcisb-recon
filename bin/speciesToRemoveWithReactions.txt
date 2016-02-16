@@ -19,3 +19,6 @@ M_HC02222_\w+
 # L-Glutamate 5-semialdehyde
 # (see MARTINEZ ET AL (2014) "NETWORK THERMODYNAMIC CURATION OF HUMAN AND YEAST GENOME-SCALE METABOLIC MODELS")
 M_glu5sa_c
+
+# Only transported, no participation in metabolic reactions:
+M_cca_d3_\w+
