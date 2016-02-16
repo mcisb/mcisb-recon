@@ -211,6 +211,7 @@ M_HC01409_[a-z]	http://identifiers.org/chebi/CHEBI:62620
 M_HC01410_[a-z]	http://identifiers.org/chebi/CHEBI:28706
 M_HC01588_[a-z]	http://identifiers.org/chebi/CHEBI:3247
 M_HC01592_[a-z]	http://identifiers.org/chebi/CHEBI:5704
+M_HC01609_[a-z]	http://identifiers.org/chebi/CHEBI:62626
 M_HC01988_[a-z]	http://identifiers.org/kegg.compound/C04088
 M_HC02022_[a-z]	http://identifiers.org/chebi/CHEBI:82750
 M_HC02108_[a-z]	http://identifiers.org/chebi/CHEBI:50591
@@ -232,6 +233,7 @@ M_hs_[a-z]	null
 M_htaxol_[a-z]	http://identifiers.org/chebi/CHEBI:63859
 M_hx2coa_[a-z]	http://identifiers.org/chebi/CHEBI:28706
 M_hxcoa_[a-z]	http://identifiers.org/chebi/CHEBI:62620
+M_iodine_[a-z]	http://identifiers.org/chebi/CHEBI:17606
 M_ivcoa_[a-z]	http://identifiers.org/chebi/CHEBI:57345
 M_leuktrB4wcooh_[a-z]	http://identifiers.org/chebi/CHEBI:27562
 M_leuktrB4woh_[a-z]	http://identifiers.org/chebi/CHEBI:57460
@@ -257,8 +259,8 @@ M_maltttr_[a-z]	http://identifiers.org/chebi/CHEBI:28460
 M_mdz_[a-z]	http://identifiers.org/chebi/CHEBI:6931
 M_mepi_[a-z]	http://identifiers.org/chebi/CHEBI:6270
 M_mercplac_[a-z]	http://identifiers.org/chebi/CHEBI:28580
-M_mi13456p_[a-z]	http://identifiers.org/chebi/CHEBI:16322
-M_minohp_[a-z]	http://identifiers.org/chebi/CHEBI:17401
+M_mi13456p_[a-z]	http://identifiers.org/chebi/CHEBI:57733
+M_minohp_[a-z]	http://identifiers.org/chebi/CHEBI:58130
 M_na1_[a-z]	http://identifiers.org/chebi/CHEBI:29101
 M_nac_[a-z]	http://identifiers.org/chebi/CHEBI:15940
 M_ncam_[a-z]	http://identifiers.org/chebi/CHEBI:17154
@@ -292,7 +294,7 @@ M_pgp_hs_[a-z]	http://identifiers.org/chebi/CHEBI:17264
 M_pmt_[a-z]	http://identifiers.org/chebi/CHEBI:7896
 M_pmtcoa_[a-z]	http://identifiers.org/chebi/CHEBI:57379
 M_ppi_[a-z]	http://identifiers.org/chebi/CHEBI:33019
-M_ppmi12346p_[a-z]	http://identifiers.org/chebi/CHEBI:30164
+M_ppmi12346p_[a-z]	http://identifiers.org/chebi/CHEBI:58628
 M_ppmi1346p_[a-z]	http://identifiers.org/chebi/CHEBI:17401
 M_pre_prot_[a-z]	http://identifiers.org/chebi/CHEBI:63419
 M_progly_[a-z]	http://identifiers.org/chebi/CHEBI:61695
