@@ -115,8 +115,8 @@ R_HSD17B42x	M_h2o_x + M_nadp_x + M_dhcholoylcoa_x --> M_h_x + M_nadph_x + M_dhoc
 R_ASPGLUm	M_h_i + M_glu_L_c + M_asp_L_m --> M_h_m + M_glu_L_m + M_asp_L_c
 R_ATPS4m	4.0 M_h_i + M_adp_m + M_pi_m --> 3.0 M_h_m + M_h2o_m + M_atp_m
 R_CYOOm3	7.92 M_h_m + M_o2_m + 4.0 M_focytC_m --> 1.96 M_h2o_m + 4.0 M_h_i + 4.0 M_ficytC_m
-R_CYOR_u10m	2.0 M_h_m + 2.0 M_ficytC_m + M_q10h2_i --> 4.0 M_h_i + M_q10_i + 2.0 M_focytC_m
-R_FADH2ETC	M_fadh2_m + M_q10_i --> M_fad_m + M_q10h2_i
-R_NADH2_u10m	5.0 M_h_m + M_nadh_m + M_q10_i --> 4.0 M_h_i + M_nad_m + M_q10h2_i
+R_CYOR_u10m	2.0 M_h_m + 2.0 M_ficytC_m + M_q10h2_m --> 4.0 M_h_i + M_q10_m + 2.0 M_focytC_m
+R_FADH2ETC	M_fadh2_m + M_q10_m --> M_fad_m + M_q10h2_m
+R_NADH2_u10m	5.0 M_h_m + M_nadh_m + M_q10_m --> 4.0 M_h_i + M_nad_m + M_q10h2_m
 R_SUCOAS1m	M_coa_m + M_gtp_m + M_succ_m + M_h_m <=> M_gdp_m + M_pi_m + M_succoa_m + M_h_i
 R_SUCOASm	M_coa_m + M_atp_m + M_succ_m + M_h_m <=> M_adp_m + M_pi_m + M_succoa_m + M_h_i
