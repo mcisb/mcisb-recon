@@ -72,12 +72,9 @@ M_C06199_[a-z]	1
 M_C06314_[a-z]	-1
 M_C06315_[a-z]	-1
 M_C06350_[a-z]	1
-M_C06948_[a-z]	0
-M_C07486_[a-z]	0
 M_C08261_[a-z]	-2
 M_C09640_[a-z]	1
 M_C09642_[a-z]	1
-M_c101_3Ecoa_[a-z]	-4
 M_c101_4Ecoa_[a-z]	-4
 M_c101_4Zcoa_[a-z]	-4
 M_C10164_[a-z]	-1
@@ -92,7 +89,6 @@ M_c122_3Z_6Zcoa_[a-z]	-4
 M_c123_3Z_6Z_9Zcoa_[a-z]	-4
 M_c13_trimethylcoa_[a-z]	-4
 M_c141_5Ecoa_[a-z]	-4
-M_c141_5Zcoa_[a-z]	-4
 M_c141_7Ecoa_[a-z]	-4
 M_c142_5E_8Ecoa_[a-z]	-4
 M_c142_5Z_8Zcoa_[a-z]	-4
@@ -105,7 +101,6 @@ M_C14825_[a-z]	-1
 M_C14826_[a-z]	-1
 M_c161_7Ecoa_[a-z]	-4
 M_c161_7Zcoa_[a-z]	-4
-M_c161_9Ecoa_[a-z]	-4
 M_c162_7E_10Ecoa_[a-z]	-4
 M_c162_7Z_10Zcoa_[a-z]	-4
 M_c163_4Z_7Z_10Zcoa_[a-z]	-4
@@ -113,12 +108,8 @@ M_c163_7Z_10Z_13Zcoa_[a-z]	-4
 M_c164_4Z_7Z_10Z_13Zcoa_[a-z]	-4
 M_c184_3Z_6Z_9Z_12Zcoa_[a-z]	-4
 M_c185_3Z_6Z_9Z_12Z_15Zcoa_[a-z]	-4
-M_c201coa_[a-z]	-4
-M_c221coa_[a-z]	-4
 M_c226coa_[a-z]	-4
 M_c2m26dcoa_[a-z]	-4
-M_c61_3Zcoa_[a-z]	-4
-M_c81_5Zcoa_[a-z]	-4
 M_cbl1_[a-z]	-1
 M_cbl2_[a-z]	4
 M_cdpchol_[a-z]	-1
@@ -186,7 +177,6 @@ M_didp_[a-z]	-3
 M_dimp_[a-z]	-2
 M_dlnlcg_[a-z]	-1
 M_dlnlcgcoa_[a-z]	-4
-M_dmnoncoa_[a-z]	-4
 M_dnad_[a-z]	-2
 M_docosac_[a-z]	-1
 M_docoscoa_[a-z]	-4
