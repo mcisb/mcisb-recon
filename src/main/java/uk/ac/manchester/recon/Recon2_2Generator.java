@@ -239,16 +239,11 @@ public class Recon2_2Generator
 		System.out.println();
 		
 		System.out.println( "Updating reactions..." ); //$NON-NLS-1$
-		// SbmlUpdater.flipExchangeReactions( model );
 		SbmlUpdater.updateReactions( model, new File( args[ 9 ] ) );
 		System.out.println();
 
 		System.out.println( "Updating reversibilities..." ); //$NON-NLS-1$
 		SbmlUpdater.updateReversibilities( model, new File( args[ 10 ] ) );
-		System.out.println();
-		
-		System.out.println( "Updating gene associations..." ); //$NON-NLS-1$
-		SbmlUpdater.updateGeneAssociations( model, new File( args[ 11 ] ) );
 		System.out.println();
 		
 		System.out.println( "Updating flux bounds..." ); //$NON-NLS-1$
@@ -322,6 +317,10 @@ public class Recon2_2Generator
 		
 		System.out.println( "Renaming reaction ids..." ); //$NON-NLS-1$
 		SbmlUpdater.updateReactionIds( model, new File( args[ 18 ] ) );
+		System.out.println();
+		
+		System.out.println( "Updating gene associations..." ); //$NON-NLS-1$
+		SbmlUpdater.updateGeneAssociations( model, new File( args[ 11 ] ) );
 		System.out.println();
 		
 		// Reformat:
