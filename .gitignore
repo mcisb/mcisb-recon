@@ -1,6 +1,7 @@
 /target/
 /.settings/
 /**/.DS_Store
+/**/*.log
 /**/model.mat*
 /**/*.m~
 /src/main/matlab/*.txt

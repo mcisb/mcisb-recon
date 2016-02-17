@@ -118,5 +118,5 @@ R_CYOOm3	7.92 M_h_m + M_o2_m + 4.0 M_focytC_m --> 1.96 M_h2o_m + 4.0 M_h_i + 4.0
 R_CYOR_u10m	2.0 M_h_m + 2.0 M_ficytC_m + M_q10h2_i --> 4.0 M_h_i + M_q10_i + 2.0 M_focytC_m
 R_FADH2ETC	M_fadh2_m + M_q10_i --> M_fad_m + M_q10h2_i
 R_NADH2_u10m	5.0 M_h_m + M_nadh_m + M_q10_i --> 4.0 M_h_i + M_nad_m + M_q10h2_i
-R_SUCOAS1m	M_coa_m + M_gtp_m + M_succ_m + M_h_m <=> M_pi_m + M_gdp_m + M_succoa_m + M_h_i
+R_SUCOAS1m	M_coa_m + M_gtp_m + M_succ_m + M_h_m <=> M_gdp_m + M_pi_m + M_succoa_m + M_h_i
 R_SUCOASm	M_coa_m + M_atp_m + M_succ_m + M_h_m <=> M_adp_m + M_pi_m + M_succoa_m + M_h_i
