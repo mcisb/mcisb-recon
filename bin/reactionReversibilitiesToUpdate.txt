@@ -53,6 +53,7 @@ R_r2517	false
 R_r2518	false
 R_RE0583[A-Z]	false
 R_RE1441[A-Z]	false
+R_RE1519[A-Z]	false
 R_RE1836[A-Z]	false
 R_RE1957[A-Z]	false
 R_RE2375[A-Z]	false

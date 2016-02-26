@@ -228,7 +228,6 @@ M_hmgcoa_[a-z]	-5
 M_homoval_[a-z]	-1
 M_hretn_[a-z]	-1
 M_itp_[a-z]	-4
-M_leuktrB4wcooh_[a-z]	-2
 M_leuktrD4_[a-z]	-1
 M_leuktrF4_[a-z]	-2
 M_lnlccoa_[a-z]	-4

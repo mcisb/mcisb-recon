@@ -197,7 +197,6 @@ M_didp_[a-z]	C10H11N4O10P2
 M_dimp_[a-z]	C10H11N4O7P
 M_dlnlcg_[a-z]	C20H33O2
 M_dlnlcgcoa_[a-z]	C41H64N7O17P3S
-M_dmhptcoa_[a-z]	C30H48N7O17P3S
 M_dmhptcrn_[a-z]	C16H31NO4
 M_dmnoncoa_[a-z]	C32H52N7O17P3S
 M_dnad_[a-z]	C21H24N6O15P2
@@ -264,7 +263,6 @@ M_homoval_[a-z]	C9H9O4
 M_hretn_[a-z]	C20H27O3
 M_itp_[a-z]	C10H11N4O14P3
 M_l2xser_[a-z]	C20H35NO17
-M_leuktrB4wcooh_[a-z]	C20H28O6
 M_leuktrD4_[a-z]	C25H39N2O6S
 M_leuktrF4_[a-z]	C28H42N2O8S
 M_lnlccoa_[a-z]	C39H62N7O17P3S
