@@ -64,6 +64,7 @@ M_biocyt_[a-z]	http://identifiers.org/chebi/CHEBI:27870
 M_btcoa_[a-z]	http://identifiers.org/chebi/CHEBI:57371
 M_btn_[a-z]	http://identifiers.org/chebi/CHEBI:57586
 M_C02712_[a-z]	http://identifiers.org/chebi/CHEBI:21557
+M_C06439_[a-z]	http://identifiers.org/chebi/CHEBI:28031
 M_C09209_[a-z]	http://identifiers.org/chebi/CHEBI:5623
 M_c10crn_[a-z]	http://identifiers.org/chebi/CHEBI:68830
 M_C14768_[a-z]	http://identifiers.org/chebi/CHEBI:34450
@@ -110,6 +111,7 @@ M_CE4786_[a-z]	http://identifiers.org/chebi/CHEBI:77202
 M_CE4788_[a-z]	http://identifiers.org/chebi/CHEBI:30322
 M_CE4813_[a-z]	http://identifiers.org/chebi/CHEBI:73862
 M_CE4815_[a-z]	http://identifiers.org/chebi/CHEBI:63545
+M_CE4822_[a-z]	http://identifiers.org/chebi/CHEBI:73870
 M_CE4823_[a-z]	http://identifiers.org/chebi/CHEBI:74086
 M_CE4836_[a-z]	http://identifiers.org/chebi/CHEBI:63546
 M_CE4839_[a-z]	http://identifiers.org/chebi/CHEBI:77228
@@ -117,6 +119,7 @@ M_CE4872_[a-z]	http://identifiers.org/chebi/CHEBI:16466
 M_CE4888_[a-z]	http://identifiers.org/chebi/CHEBI:27404
 M_CE4968_[a-z]	http://identifiers.org/chebi/CHEBI:70984
 M_CE4969_[a-z]	http://identifiers.org/chebi/CHEBI:70979
+M_CE4987_[a-z]	http://identifiers.org/hmdb/HMDB12504
 M_CE4990_[a-z]	http://identifiers.org/chebi/CHEBI:27814
 M_CE5101_[a-z]	http://identifiers.org/chebi/CHEBI:57795
 M_CE5121_[a-z]	http://identifiers.org/chebi/CHEBI:84793
@@ -124,15 +127,22 @@ M_CE5123_[a-z]	http://identifiers.org/chebi/CHEBI:15475
 M_CE5165_[a-z]	http://identifiers.org/chebi/CHEBI:58677
 M_CE5166_[a-z]	http://identifiers.org/chebi/CHEBI:15493
 M_CE5169_[a-z]	http://identifiers.org/chebi/CHEBI:27379
+M_CE5352_[a-z]	http://identifiers.org/hmdb/HMDB12838
 M_CE5594_[a-z]	http://identifiers.org/chebi/CHEBI:15367
-M_CE5756_[a-z]	http://identifiers.org/chebi/CHEBI:28870
+M_CE5654_[a-z]	http://identifiers.org/hmdb/HMDB12789
+M_CE5726_[a-z]	http://identifiers.org/chebi/CHEBI:85232
+M_CE5754_[a-z]	http://identifiers.org/chebi/CHEBI:71980
 M_CE5782_[a-z]	http://identifiers.org/chebi/CHEBI:64628
 M_CE5924_[a-z]	http://identifiers.org/chebi/CHEBI:15553
 M_CE6247_[a-z]	http://identifiers.org/chebi/CHEBI:15646
 M_CE6415_[a-z]	http://identifiers.org/chebi/CHEBI:15657
 M_CE6429_[a-z]	http://identifiers.org/chebi/CHEBI:83336
+M_CE7083_[a-z]	http://identifiers.org/chebi/CHEBI:88493
+M_CE7112_[a-z]	http://identifiers.org/chebi/CHEBI:72789
+M_CE7115_[a-z]	http://identifiers.org/chebi/CHEBI:57460
 M_chtn_[a-z]	http://identifiers.org/chebi/CHEBI:17029
 M_cl_[a-z]	http://identifiers.org/chebi/CHEBI:17996
+M_clpndcoa_[a-z]	http://identifiers.org/chebi/CHEBI:73870
 M_co2_[a-z]	http://identifiers.org/chebi/CHEBI:16526
 M_coa_[a-z]	http://identifiers.org/chebi/CHEBI:57287
 M_core2_[a-z]	null
@@ -219,6 +229,7 @@ M_HC02022_[a-z]	http://identifiers.org/chebi/CHEBI:82750
 M_HC02108_[a-z]	http://identifiers.org/chebi/CHEBI:50591
 M_HC02129_[a-z]	http://identifiers.org/chebi/CHEBI:17420
 M_HC02147_[a-z]	http://identifiers.org/chebi/CHEBI:84651
+M_HC02213_[a-z]	http://identifiers.org/chebi/CHEBI:28031
 M_HC10854_[a-z]	http://identifiers.org/chebi/CHEBI:73066
 M_HC10855_[a-z]	http://identifiers.org/chebi/CHEBI:72715
 M_HC10856_[a-z]	http://identifiers.org/chebi/CHEBI:74396
@@ -332,6 +343,7 @@ M_tdcrn_[a-z]	http://identifiers.org/chebi/CHEBI:84634
 M_tddedicoa_[a-z]	http://identifiers.org/chebi/CHEBI:78550
 M_tddedi2coa_[a-z]	http://identifiers.org/chebi/CHEBI:28387
 M_tdeACP_[a-z]	http://identifiers.org/chebi/CHEBI:10735
+M_tetdecdicoa_[a-z]	http://identifiers.org/chebi/CHEBI:71586
 M_tethex3_[a-z]	http://identifiers.org/chebi/CHEBI:77202
 M_tethex3coa_[a-z]	http://identifiers.org/chebi/CHEBI:74086
 M_tetpent3_[a-z]	http://identifiers.org/chebi/CHEBI:77228
@@ -345,6 +357,7 @@ M_trdrd_[a-z]	http://identifiers.org/chebi/CHEBI:15033
 M_ttccoa_[a-z]	http://identifiers.org/chebi/CHEBI:65052
 M_ttdcea_[a-z]	http://identifiers.org/chebi/CHEBI:27781
 M_ttdcrn_[a-z]	http://identifiers.org/chebi/CHEBI:84634
+M_ttetddcoa_[a-z]	http://identifiers.org/chebi/CHEBI:71586
 M_vacccoa_[a-z]	http://identifiers.org/chebi/CHEBI:74296
 M_vacccrn_[a-z]	http://identifiers.org/chebi/CHEBI:84651
 M_wharachd_[a-z]	http://identifiers.org/chebi/CHEBI:34306

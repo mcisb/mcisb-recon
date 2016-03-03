@@ -206,6 +206,7 @@ M_dolglcp_\w_[a-z]	C26H47O9P(C5H8)n
 M_dspvs_[a-z]	C18H25O5
 M_dutp_[a-z]	C9H11N2O14P3
 M_ecgon_[a-z]	C9H14NO3
+M_e_[a-z]	.
 M_egme_[a-z]	C10H17NO3
 M_eicostet_[a-z]	C20H31O2
 M_eicostetcoa_[a-z]	C41H62N7O17P3S
@@ -233,6 +234,8 @@ M_gpi_sig_[a-z]	X
 M_ha_[a-z]	(C14H21NO11)n
 M_ha_pre1_[a-z]	C14H20NO11
 M_HC00319_[a-z]	C3H2O4
+M_HC00617_[a-z]	X
+M_HC00619_[a-z]	XH
 M_HC00695_[a-z]	C12H20NO4S2
 M_HC00900_[a-z]	C4H4O4
 M_HC01335_[a-z]	C14H27O2SR

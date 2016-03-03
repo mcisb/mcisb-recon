@@ -260,8 +260,8 @@ public class Recon2_2Generator
 		SbmlUpdater.checkAnnotationAccuracy( model );
 		System.out.println();
 		
-		System.out.println( "Checking annotation consistency..." ); //$NON-NLS-1$
-		SbmlUpdater.checkAnnotationConsistency( model );
+		System.out.println( "Checking species consistency..." ); //$NON-NLS-1$
+		SbmlUpdater.checkSpeciesConsistency( model );
 		System.out.println();
 		
 		// Delete:
@@ -309,6 +309,10 @@ public class Recon2_2Generator
 		
 		System.out.println( "Renaming reaction names..." ); //$NON-NLS-1$
 		SbmlUpdater.updateReactionNames( model, new File( args[ 16 ] ) );
+		System.out.println();
+		
+		System.out.println( "Renaming species ids..." ); //$NON-NLS-1$
+		SbmlUpdater.updateSpeciesIds( model );
 		System.out.println();
 		
 		System.out.println( "Renaming species ids..." ); //$NON-NLS-1$

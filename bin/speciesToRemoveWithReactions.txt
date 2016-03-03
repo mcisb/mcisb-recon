@@ -22,3 +22,22 @@ M_glu5sa_c
 
 # Only transported, no participation in metabolic reactions:
 M_cca_d3_\w+
+
+# Drugs:
+M_ibup_\w_\w+
+M_ibupcoa_\w_\w+
+M_\dhibup_\w_\w+
+M_hnifedipine_\w+
+M_nfd_\w+
+M_nfdac_\w+
+M_nfdnpy_\w+
+M_nfdoh_\w+
+M_nifedipine_\w+
+
+# Miscellaneous:
+M_CE4980_\w+
+M_CE5747_\w+
+M_CE5753_\w+
+M_CE5775_\w+
+M_CE5776_\w+
+M_CE7084_\w+
