@@ -64,6 +64,13 @@ public class Recon2_2Generator
 		dobson.setEmail( "paul.dobson@manchester.ac.uk" ); //$NON-NLS-1$
 		modelHistory.addCreator( dobson );
 		
+		final Creator hanscho = new Creator();
+		hanscho.setGivenName( "Michael" ); //$NON-NLS-1$
+		hanscho.setFamilyName( "Hanscho" ); //$NON-NLS-1$
+		hanscho.setOrganisation( "Austrian Centre of Industrial Biotechnology" ); //$NON-NLS-1$
+		hanscho.setEmail( "michael.hanscho@acib.at" ); //$NON-NLS-1$
+		modelHistory.addCreator( hanscho );
+		
 		for( Reaction reaction : model.getListOfReactions() )
 		{
 			// Delete evidence codes:
@@ -282,7 +289,7 @@ public class Recon2_2Generator
 		System.out.println();
 		
 		System.out.println( "Cleaning document: rebalancing, fixing -R groups, deleting unbalanced, dead-end metabolites..." ); //$NON-NLS-1$
-		final int MAX_STOICH_COEFF = 6;
+		final int MAX_STOICH_COEFF = 4;
 		SbmlDeleter.clean( document, MAX_STOICH_COEFF );
 		System.out.println();
 		

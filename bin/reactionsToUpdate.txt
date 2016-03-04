@@ -70,7 +70,6 @@ R_RE2513C	M_h2o_c + M_CE4633_c --> M_h2o2_c + M_h_c + M_cl_c
 R_RE2513E	M_h2o_e + M_CE4633_e --> M_h_e + M_cl_e + M_h2o2_e 
 R_RE2513L	M_h2o_l + M_CE4633_l --> M_h_l + M_h2o2_l + M_cl_l 
 R_RE2513N	M_h2o_n + M_CE4633_n --> M_h_n + M_h2o2_n + M_cl_n 
-R_RE2591C	M_urate_c <=> M_CE6252_c + M_e_c
 R_RE2704C	M_CE1924_c <=> M_h_c + M_CE7047_c + M_e_c
 R_RE2864C	2.0 M_h_c + M_CE6444_c + M_ascb_L_c <=> M_h2o_c + M_CE6453_c + M_dhdascb_c
 R_RE2865C	2.0 M_h_c + M_CE6444_c + M_ascb_L_c <=> M_h2o_c + M_CE6452_c + M_dhdascb_c
@@ -80,7 +79,7 @@ R_RE2877C	2.0 M_h_c + M_CE6450_c + M_ascb_L_c <=> M_h2o_c + M_CE6465_c + M_dhdas
 R_RE2888C	M_urea_c + M_CE0074_c --> M_h2o2_c + M_urate_c 
 R_RE2888E	M_urea_e + M_CE0074_e --> M_h2o2_e + M_urate_e 
 R_RE2888N	M_urea_n + M_CE0074_n --> M_h2o2_n + M_urate_n 
-R_RE2898C	M_C01041_c <=> M_dhdascb_c + M_e_c + M_h_c
+R_RE2898C	2.0 M_C01041_c --> M_dhdascb_c + M_ascb_L_c
 R_RE2973G	M_atp_g + M_CE5101_g <=> M_h_g + M_adp_g + M_pail35p_hs_g
 R_RE2974G	M_atp_g + M_pail3p_hs_g <=> M_h_g + M_adp_g + M_pail35p_hs_g
 R_RE3095C	2.0 M_h2o_c + M_CE5276_c --> M_h2o2_c + M_dopa_c 

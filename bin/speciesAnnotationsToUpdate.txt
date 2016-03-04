@@ -227,7 +227,6 @@ M_HC01609_[a-z]	http://identifiers.org/chebi/CHEBI:62626
 M_HC01988_[a-z]	http://identifiers.org/kegg.compound/C04088
 M_HC02022_[a-z]	http://identifiers.org/chebi/CHEBI:82750
 M_HC02108_[a-z]	http://identifiers.org/chebi/CHEBI:50591
-M_HC02129_[a-z]	http://identifiers.org/chebi/CHEBI:17420
 M_HC02147_[a-z]	http://identifiers.org/chebi/CHEBI:84651
 M_HC02213_[a-z]	http://identifiers.org/chebi/CHEBI:28031
 M_HC10854_[a-z]	http://identifiers.org/chebi/CHEBI:73066
@@ -277,6 +276,7 @@ M_mi13456p_[a-z]	http://identifiers.org/chebi/CHEBI:57733
 M_minohp_[a-z]	http://identifiers.org/chebi/CHEBI:58130
 M_na1_[a-z]	http://identifiers.org/chebi/CHEBI:29101
 M_nac_[a-z]	http://identifiers.org/chebi/CHEBI:15940
+M_napqi_[a-z]	http://identifiers.org/chebi/CHEBI:29132
 M_ncam_[a-z]	http://identifiers.org/chebi/CHEBI:17154
 M_Ndmelys_[a-z]	http://identifiers.org/chebi/CHEBI:8552
 M_noncoa_[a-z]	http://identifiers.org/chebi/CHEBI:27770
@@ -309,7 +309,7 @@ M_pmt_[a-z]	http://identifiers.org/chebi/CHEBI:7896
 M_pmtcoa_[a-z]	http://identifiers.org/chebi/CHEBI:57379
 M_ppi_[a-z]	http://identifiers.org/chebi/CHEBI:33019
 M_ppmi12346p_[a-z]	http://identifiers.org/chebi/CHEBI:58628
-M_ppmi1346p_[a-z]	http://identifiers.org/chebi/CHEBI:17401
+M_ppmi1346p_[a-z]	http://identifiers.org/chebi/CHEBI:58130
 M_pre_prot_[a-z]	http://identifiers.org/chebi/CHEBI:63419
 M_progly_[a-z]	http://identifiers.org/chebi/CHEBI:61695
 M_ps_hs_[a-z]	http://identifiers.org/chebi/CHEBI:58436
