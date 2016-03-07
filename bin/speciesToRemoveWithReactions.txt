@@ -35,6 +35,7 @@ M_nfdoh_\w+
 M_nifedipine_\w+
 
 # Miscellaneous:
+M_1ddecg3p_\w+
 M_CE4980_\w+
 M_CE5747_\w+
 M_CE5753_\w+

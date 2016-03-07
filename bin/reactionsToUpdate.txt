@@ -52,7 +52,6 @@ R_r1254	M_atp_c + 8.0 M_h_c + M_coa_c + M_strdnc_c + M_fadh2_c --> M_amp_c + M_p
 R_r1317	M_h2o_c + M_HC01988_c + M_fad_c <=> M_ACP_c + M_strdnc_c + M_fadh2_c
 R_r1453	M_pro_L_m + M_q10_m <=> 5.0 M_h_m + M_1pyr5c_m + M_q10h2_m
 R_r2438	M_crn_m + M_c4crn_c --> M_crn_c + M_c4crn_m
-R_r2510	M_crn_r + M_st_c <=> M_crn_c + M_st_r
 R_RE0702C	M_h2o_c + M_CE2011_c --> M_h2o2_c + M_h_c + M_tcynt_c 
 R_RE0702E	M_h2o_e + M_CE2011_e --> M_h_e + M_h2o2_e + M_tcynt_e 
 R_RE0702L	M_h2o_l + M_CE2011_l --> M_h_l + M_h2o2_l + M_tcynt_l 
