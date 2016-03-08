@@ -266,6 +266,7 @@ M_itp_[a-z]	C10H11N4O14P3
 M_l2xser_[a-z]	C20H35NO17
 M_leuktrD4_[a-z]	C25H39N2O6S
 M_leuktrF4_[a-z]	C28H42N2O8S
+M_lneldcACP_[a-z]	C18H31OSR
 M_lnlccoa_[a-z]	C39H62N7O17P3S
 M_lnlncacoa_[a-z]	C39H60N7O17P3S
 M_lxser_[a-z]	C14H25NO12

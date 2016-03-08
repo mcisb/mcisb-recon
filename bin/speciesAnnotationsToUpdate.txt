@@ -34,6 +34,7 @@ M_5pmev_[a-z]	http://identifiers.org/chebi/CHEBI:58146
 M_6htststerone_[a-z]	http://identifiers.org/chebi/CHEBI:34477
 M_acACP_[a-z]	http://identifiers.org/chebi/CHEBI:17093
 M_acgalfuc12gal14acglcgalgluside_hs_[a-z]	http://identifiers.org/chebi/CHEBI:62650
+M_acgalfucgalacglcgalgluside_hs_g
 M_acgalfucgalacgalfuc12gal14acglcgalgluside_hs_[a-z]	http://identifiers.org/chebi/CHEBI:28574
 M_acgalfucgalacglcgal14acglcgalgluside_hs_[a-z]	http://identifiers.org/chebi/CHEBI:62540
 M_acgalfucgalacglcgalgluside_hs_[a-z]	http://identifiers.org/chebi/CHEBI:62650
@@ -46,6 +47,7 @@ M_adocbl_[a-z]	http://identifiers.org/chebi/CHEBI:18408
 M_adp_[a-z]	http://identifiers.org/chebi/CHEBI:456216
 M_adpac_[a-z]	http://identifiers.org/chebi/CHEBI:30832
 M_adpcoa_[a-z]	http://identifiers.org/chebi/CHEBI:34528
+M_adrncoa_[a-z]	http://identifiers.org/hmdb/HMDB60208
 M_adsel_[a-z]	http://identifiers.org/chebi/CHEBI:2485
 M_ak2gchol_hs_[a-z]	http://identifiers.org/chebi/CHEBI:36702
 M_ak2gp_hs_[a-z]	http://identifiers.org/chebi/CHEBI:73332
@@ -120,6 +122,7 @@ M_CE4815_[a-z]	http://identifiers.org/chebi/CHEBI:71489
 M_CE4822_[a-z]	http://identifiers.org/chebi/CHEBI:73870
 M_CE4823_[a-z]	http://identifiers.org/chebi/CHEBI:74086
 M_CE4827_[a-z]	http://identifiers.org/chebi/CHEBI:90817
+M_CE4829_[a-z]	http://identifiers.org/hmdb/HMDB60203
 M_CE4836_[a-z]	http://identifiers.org/chebi/CHEBI:74084
 M_CE4839_[a-z]	http://identifiers.org/chebi/CHEBI:77228
 M_CE4872_[a-z]	http://identifiers.org/chebi/CHEBI:16466
@@ -190,6 +193,7 @@ M_docoscoa_[a-z]	http://identifiers.org/chebi/CHEBI:65059
 M_dodecanac_[a-z]	http://identifiers.org/chebi/CHEBI:4676
 M_ebastine_[a-z]	http://identifiers.org/chebi/CHEBI:31528
 M_ecgon_[a-z]	http://identifiers.org/chebi/CHEBI:4743
+M_elaidcrn_[a-z]	http://identifiers.org/chebi/CHEBI:86038
 M_estroneglc_[a-z]	http://identifiers.org/kegg.compound/C11133
 M_etfox_[a-z]	http://identifiers.org/kegg.compound/C03161
 M_etfrd_[a-z]	http://identifiers.org/kegg.compound/C03024
@@ -238,6 +242,8 @@ M_HC01409_[a-z]	http://identifiers.org/chebi/CHEBI:62620
 M_HC01410_[a-z]	http://identifiers.org/chebi/CHEBI:28706
 M_HC01588_[a-z]	http://identifiers.org/chebi/CHEBI:3247
 M_HC01592_[a-z]	http://identifiers.org/chebi/CHEBI:5704
+M_HC01603_[a-z]	http://identifiers.org/chebi/CHEBI:76518
+M_HC01606_[a-z]	http://identifiers.org/chebi/CHEBI:10729
 M_HC01609_[a-z]	http://identifiers.org/chebi/CHEBI:62626
 M_HC01610_[a-z]	http://identifiers.org/chebi/CHEBI:62631
 M_HC01988_[a-z]	http://identifiers.org/kegg.compound/C04088
@@ -252,10 +258,10 @@ M_HC10855_[a-z]	http://identifiers.org/chebi/CHEBI:72715
 M_HC10856_[a-z]	http://identifiers.org/chebi/CHEBI:74396
 M_HC10859_[a-z]	http://identifiers.org/chebi/CHEBI:73028
 M_hdcecrn_[a-z]	http://identifiers.org/chebi/CHEBI:73066
-M_hdcoa_[a-z]	http://identifiers.org/chebi/CHEBI:61540
+M_hdcoa_[a-z]	http://identifiers.org/chebi/CHEBI:61526
 M_hdeACP_[a-z]	http://identifiers.org/chebi/CHEBI:10729
 M_hepcoa_[a-z]	http://identifiers.org/chebi/CHEBI:37283
-M_hestratriol_[a-z]	http://identifiers.org/chebi/CHEBI:62845
+M_hestratriol_[a-z]	http://identifiers.org/hmdb/HMDB12782
 M_hexccoa_[a-z]	http://identifiers.org/chebi/CHEBI:64868
 M_hexdiac_[a-z]	http://identifiers.org/chebi/CHEBI:73722
 M_hretn_[a-z]	http://identifiers.org/chebi/CHEBI:63795
@@ -268,8 +274,7 @@ M_ivcoa_[a-z]	http://identifiers.org/chebi/CHEBI:57345
 M_leuktrB4wcooh_[a-z]	http://identifiers.org/chebi/CHEBI:90722
 M_leuktrB4woh_[a-z]	http://identifiers.org/chebi/CHEBI:57460
 M_lgnccoa_[a-z]	http://identifiers.org/chebi/CHEBI:65052
-M_lnlccrn_[a-z]	http://identifiers.org/chebi/CHEBI:72715
-M_lneldcACP_[a-z]	http://identifiers.org/kegg.compound/C16160
+M_lnlccrn_[a-z]	http://identifiers.org/chebi/CHEBI:73072
 M_lneldccrn_[a-z]	http://identifiers.org/chebi/CHEBI:72715
 M_lnlccoa_[a-z]	http://identifiers.org/chebi/CHEBI:15530
 M_lpchol_hs_[a-z]	http://identifiers.org/chebi/CHEBI:78192
@@ -305,11 +310,12 @@ M_ocdcaACP_[a-z]	http://identifiers.org/kegg.compound/C04088
 M_ocdcea_[a-z]	http://identifiers.org/chebi/CHEBI:30823
 M_ocdcyaACP_[a-z]	http://identifiers.org/chebi/CHEBI:76516
 M_ocde9ecoa_[a-z]	http://identifiers.org/chebi/CHEBI:57387
-M_ocdececrn_[a-z]	http://identifiers.org/chebi/CHEBI:84651
+M_ocdececrn_[a-z]	http://identifiers.org/chebi/CHEBI:89742
 M_octd11ecoa_[a-z]	http://identifiers.org/chebi/CHEBI:74296
 M_octdececoa_[a-z]	http://identifiers.org/chebi/CHEBI:57387
 M_octeACP_[a-z]	http://identifiers.org/chebi/CHEBI:76517
 M_odecoa_[a-z]	http://identifiers.org/chebi/CHEBI:57387
+M_odecrn_[a-z]	http://identifiers.org/chebi/CHEBI:86038
 M_omhdocosac_[a-z]	http://identifiers.org/chebi/CHEBI:76304
 M_omhpal_[a-z]	http://identifiers.org/chebi/CHEBI:55329
 M_onpthl_[a-z]	http://identifiers.org/chebi/CHEBI:52431
