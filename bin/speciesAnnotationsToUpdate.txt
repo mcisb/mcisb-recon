@@ -34,7 +34,6 @@ M_5pmev_[a-z]	http://identifiers.org/chebi/CHEBI:58146
 M_6htststerone_[a-z]	http://identifiers.org/chebi/CHEBI:34477
 M_acACP_[a-z]	http://identifiers.org/chebi/CHEBI:17093
 M_acgalfuc12gal14acglcgalgluside_hs_[a-z]	http://identifiers.org/chebi/CHEBI:62650
-M_acgalfucgalacglcgalgluside_hs_g
 M_acgalfucgalacgalfuc12gal14acglcgalgluside_hs_[a-z]	http://identifiers.org/chebi/CHEBI:28574
 M_acgalfucgalacglcgal14acglcgalgluside_hs_[a-z]	http://identifiers.org/chebi/CHEBI:62540
 M_acgalfucgalacglcgalgluside_hs_[a-z]	http://identifiers.org/chebi/CHEBI:62650
@@ -168,7 +167,7 @@ M_crmp_hs_[a-z]	http://identifiers.org/chebi/CHEBI:57674
 M_dag_hs_[a-z]	http://identifiers.org/chebi/CHEBI:18035
 M_dc2coa_[a-z]	http://identifiers.org/chebi/CHEBI:61406
 M_dca_[a-z]	http://identifiers.org/chebi/CHEBI:27689
-M_dchac_[a-z]	http://identifiers.org/chebi/CHEBI:28834
+M_dchac_[a-z]	http://identifiers.org/chebi/CHEBI:23614
 M_dcsptn1_[a-z]	http://identifiers.org/chebi/CHEBI:65136
 M_dd2coa_[a-z]	http://identifiers.org/chebi/CHEBI:57330
 M_dd3coa_[a-z]	http://identifiers.org/chebi/CHEBI:58543

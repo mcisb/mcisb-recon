@@ -114,6 +114,7 @@ M_cbl1_[a-z]	-1
 M_cbl2_[a-z]	4
 M_cdpchol_[a-z]	-1
 M_CE0737_[a-z]	-1
+M_CE0932_[a-z]	-1
 M_CE0955_[a-z]	-1
 M_CE1243_[a-z]	-1
 M_CE1310_[a-z]	-1
