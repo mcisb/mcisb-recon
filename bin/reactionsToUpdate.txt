@@ -13,10 +13,26 @@ R_DOLASNT_Ler	M_Asn_X_Ser_Thr_r + 0.1 M_g3m8mpdol_U_r --> M_h_r + 0.1 M_doldp_L_
 R_DOLGLCP_Lter	M_dolglcp_L_c --> M_dolglcp_L_r
 R_DOLICHOL_Lter	M_dolichol_L_r <=> M_dolichol_L_c
 R_DOLMANP_Lter	M_dolmanp_L_c --> M_dolmanp_L_r
-R_DOLP_Lter	0.1 M_dolglcp_L_r + 0.1 M_m8mpdol_L_r --> 0.1 M_dolp_L_r + M_h_r + 0.1 M_g1m8mpdol_U_r
-R_DOLPGT1_Ler	0.1 M_dolglcp_L_r + 0.1 M_g1m8mpdol_U_r --> 0.1 M_dolp_L_r + M_h_r + 0.1 M_g2m8mpdol_U_r
-R_DOLPGT2_Ler	0.1 M_dolglcp_L_r + 0.1 M_g2m8mpdol_U_r --> 0.1 M_dolp_L_r + M_h_r + 0.1 M_g3m8mpdol_U_r
-R_DOLPMT4_Ler	M_dolp_L_r --> M_dolp_L_c
+R_DOLPGT1_Uer	M_dolglcp_U_r + M_m8mpdol_U_r --> M_dolp_U_r + M_g1m8mpdol_U_r
+R_DOLPGT2_Uer	M_dolglcp_U_r + M_g1m8mpdol_U_r --> M_dolp_U_r + M_g2m8mpdol_U_r
+R_DOLPGT3_Uer	M_dolglcp_U_r + M_g2m8mpdol_U_r --> M_dolp_U_r + M_g3m8mpdol_U_r
+R_DOLPMT_U	0.1 M_dolp_U_c + M_gdpmann_c --> 0.1 M_dolmanp_U_c + M_gdp_c
+R_DOLPMT1_Uer	M_dolmanp_U_r + M_m4mpdol_U_r --> M_dolp_U_r + M_m5mpdol_U_r
+R_DOLPMT2_Uer	M_dolmanp_U_r + M_m5mpdol_U_r --> M_dolp_U_r + M_m6mpdol_U_r
+R_DOLPMT3_Uer	M_dolmanp_U_r + M_m6mpdol_U_r --> M_dolp_U_r + M_m7mpdol_U_r
+R_DOLPMT4_Uer	M_dolmanp_U_r + M_m7mpdol_U_r --> M_dolp_U_r + M_m8mpdol_U_r
+R_DOLP_Uter	M_dolp_U_r --> M_dolp_U_c
+R_DOLPH_Uer	M_h2o_r + M_dolp_U_r --> M_pi_r + M_dolichol_U_r
+R_DOLPGT1_Ler	M_dolglcp_L_r + M_m8mpdol_L_r --> M_dolp_L_r + M_g1m8mpdol_L_r
+R_DOLPGT2_Ler	M_dolglcp_L_r + M_g1m8mpdol_L_r --> M_dolp_L_r + M_g2m8mpdol_L_r
+R_DOLPGT3_Ler	M_dolglcp_L_r + M_g2m8mpdol_L_r --> M_dolp_L_r + M_g3m8mpdol_L_r
+R_DOLPMT_L	0.1 M_dolp_L_c + M_gdpmann_c --> 0.1 M_dolmanp_L_c + M_gdp_c
+R_DOLPMT1_Ler	M_dolmanp_L_r + M_m4mpdol_L_r --> M_dolp_L_r + M_m5mpdol_L_r
+R_DOLPMT2_Ler	M_dolmanp_L_r + M_m5mpdol_L_r --> M_dolp_L_r + M_m6mpdol_L_r
+R_DOLPMT3_Ler	M_dolmanp_L_r + M_m6mpdol_L_r --> M_dolp_L_r + M_m7mpdol_L_r
+R_DOLPMT4_Ler	M_dolmanp_L_r + M_m7mpdol_L_r --> M_dolp_L_r + M_m8mpdol_L_r
+R_DOLP_Lter	M_dolp_L_r --> M_dolp_L_c
+R_DOLPH_Ler	M_h2o_r + M_dolp_L_r --> M_pi_r + M_dolichol_L_r
 R_FAOXC11	M_h2o_m + M_coa_m + M_nad_m + M_dmnoncoa_m + M_fad_m --> M_h_m + M_nadh_m + M_accoa_m + M_dmhptcoa_m + M_fadh2_m
 R_FAOXC220200x	M_h2o_x + M_coa_x + M_o2_x + M_nad_x + M_c220coa_x + 3.0 M_h_x --> M_h2o2_x + M_nadh_x + M_accoa_x + M_arachcoa_x
 R_FAOXC226205m	M_h2o_m + M_coa_m + M_nad_m + M_c226coa_m + M_nadph_m + M_fad_m --> M_h_m + M_nadh_m + M_accoa_m + M_tmndnccoa_m + M_nadp_m + M_fadh2_m
