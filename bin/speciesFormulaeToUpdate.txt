@@ -322,7 +322,6 @@ M_triodthysuf_[a-z]	C15H11I3NO7S
 M_tripvs_[a-z]	C23H38O9
 M_ttc_ggdp_[a-z]	C20H33O7P2
 M_ttdcea_[a-z]	C14H25O2
-M_wharachd_[a-z]	C20H31O3
 M_whddca_[a-z]	C12H23O3
 M_xtp_[a-z]	C10H11N4O15P3
 M_xu1p_D_[a-z]	C5H9O8P

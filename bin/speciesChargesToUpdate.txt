@@ -276,7 +276,6 @@ M_thmpp_[a-z]	-2
 M_triodthysuf_[a-z]	-1
 M_ttc_ggdp_[a-z]	-3
 M_ttdcea_[a-z]	-1
-M_wharachd_[a-z]	-1
 M_whddca_[a-z]	-1
 M_xtp_[a-z]	-4
 M_xu1p_D_[a-z]	-2

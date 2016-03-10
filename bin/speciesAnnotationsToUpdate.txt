@@ -46,7 +46,7 @@ M_adocbl_[a-z]	http://identifiers.org/chebi/CHEBI:18408
 M_adp_[a-z]	http://identifiers.org/chebi/CHEBI:456216
 M_adpac_[a-z]	http://identifiers.org/chebi/CHEBI:30832
 M_adpcoa_[a-z]	http://identifiers.org/chebi/CHEBI:34528
-M_adrncoa_[a-z]	http://identifiers.org/hmdb/HMDB60208
+M_adrncoa_[a-z]	http://identifiers.org/chebi/CHEBI:73856
 M_adsel_[a-z]	http://identifiers.org/chebi/CHEBI:2485
 M_ak2gchol_hs_[a-z]	http://identifiers.org/chebi/CHEBI:36702
 M_ak2gp_hs_[a-z]	http://identifiers.org/chebi/CHEBI:73332
@@ -98,7 +98,7 @@ M_CE2153_[a-z]	http://identifiers.org/chebi/CHEBI:69060
 M_CE2179_[a-z]	http://identifiers.org/chebi/CHEBI:62845
 M_CE2186_[a-z]	http://identifiers.org/chebi/CHEBI:28955
 M_CE2201_[a-z]	http://identifiers.org/chebi/CHEBI:47214
-M_CE2254_[a-z]	http://identifiers.org/chebi/CHEBI:65088
+M_CE2254_[a-z]	http://identifiers.org/chebi/CHEBI:65059
 M_CE2257_[a-z]	http://identifiers.org/chebi/CHEBI:65052
 M_CE2315_[a-z]	http://identifiers.org/chebi/CHEBI:16608
 M_CE2321_[a-z]	http://identifiers.org/chebi/CHEBI:27910
@@ -250,7 +250,7 @@ M_HC02022_[a-z]	http://identifiers.org/chebi/CHEBI:82750
 M_HC02100_[a-z]	http://identifiers.org/chebi/CHEBI:71589
 M_HC02108_[a-z]	http://identifiers.org/chebi/CHEBI:50591
 M_HC02147_[a-z]	http://identifiers.org/chebi/CHEBI:84651
-M_HC02179_[a-z]	http://identifiers.org/chebi/CHEBI:34306
+M_HC02179_[a-z]	http://identifiers.org/chebi/CHEBI:76624
 M_HC02213_[a-z]	http://identifiers.org/chebi/CHEBI:28031
 M_HC10854_[a-z]	http://identifiers.org/chebi/CHEBI:73066
 M_HC10855_[a-z]	http://identifiers.org/chebi/CHEBI:72715
@@ -389,7 +389,7 @@ M_ttdcrn_[a-z]	http://identifiers.org/chebi/CHEBI:84634
 M_ttetddcoa_[a-z]	http://identifiers.org/chebi/CHEBI:71586
 M_vacccoa_[a-z]	http://identifiers.org/chebi/CHEBI:74296
 M_vacccrn_[a-z]	http://identifiers.org/chebi/CHEBI:84651
-M_wharachd_[a-z]	http://identifiers.org/chebi/CHEBI:34306
+M_wharachd_[a-z]	http://identifiers.org/chebi/CHEBI:76624
 M_whddca_[a-z]	http://identifiers.org/chebi/CHEBI:37248
 M_whhdca_[a-z]	http://identifiers.org/chebi/CHEBI:55329
 M_whtststerone_[a-z]	http://identifiers.org/chebi/CHEBI:798

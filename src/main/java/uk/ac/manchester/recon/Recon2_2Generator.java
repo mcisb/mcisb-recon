@@ -314,6 +314,10 @@ public class Recon2_2Generator
 		SbmlUpdater.updateSpeciesNames( model, new File( args[ 15 ] ) );
 		System.out.println();
 		
+		System.out.println( "Ensuring all species are named..." ); //$NON-NLS-1$
+		SbmlReformatter.checkNames( model );
+		System.out.println();
+		
 		System.out.println( "Renaming reaction names..." ); //$NON-NLS-1$
 		SbmlUpdater.updateReactionNames( model, new File( args[ 16 ] ) );
 		System.out.println();
