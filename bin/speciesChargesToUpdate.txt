@@ -175,7 +175,6 @@ M_dutp_[a-z]	-4
 M_ecgon_[a-z]	-1
 M_egme_[a-z]	0
 M_eicostet_[a-z]	-1
-M_eicostetcoa_[a-z]	-4
 M_f1p_[a-z]	-2
 M_f5hoxkyn_[a-z]	1
 M_fad_[a-z]	-2

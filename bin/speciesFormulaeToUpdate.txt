@@ -201,7 +201,6 @@ M_ecgon_[a-z]	C9H14NO3
 M_e_[a-z]	.
 M_egme_[a-z]	C10H17NO3
 M_eicostet_[a-z]	C20H31O2
-M_eicostetcoa_[a-z]	C41H62N7O17P3S
 M_etfox_[a-z]	X
 M_etfrd_[a-z]	XH2
 M_f1p_[a-z]	C6H11O9P

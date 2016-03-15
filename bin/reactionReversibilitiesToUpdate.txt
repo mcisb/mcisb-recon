@@ -79,5 +79,6 @@ R_3MOX4HOXPGALDOX_NADP_	false
 R_4HOXPACDOX_NADP_	false
 R_FACOAL161	false
 
-# Exchange reactions:
+# Exchange / sink reactions:
 R_EX_.*	true|reverse
+R_sink_.*	true

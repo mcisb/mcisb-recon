@@ -253,6 +253,10 @@ public class Recon2_2Generator
 		SbmlUpdater.updateReversibilities( model, new File( args[ 10 ] ) );
 		System.out.println();
 		
+		System.out.println( "Unblocking reactions..." ); //$NON-NLS-1$
+		SbmlUpdater.unblockReactions( model );
+		System.out.println();
+		
 		System.out.println( "Updating flux bounds..." ); //$NON-NLS-1$
 		FluxBoundsGenerater.run( model );
 		System.out.println();

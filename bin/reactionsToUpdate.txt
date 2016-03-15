@@ -46,6 +46,7 @@ R_Htm	M_h_i --> M_h_m
 R_LVACLAChep	M_atp_c + M_lvstacid_c --> M_amp_c + M_lvst_c + M_ppi_c
 R_OCDEAFABP1tc	M_ocdcea_c <=> M_ocdcea_r
 R_PMTCOAFABP1tc	M_pmtcoa_c <=> M_pmtcoa_r
+R_r0205	M_q10_m + M_glyc3p_m --> M_dhap_m + M_q10h2_m
 R_r0309	M_h_m + M_nadph_m + M_hdd2coa_m --> M_nadp_m + M_pmtcoa_m
 R_r0434	M_coa_r + M_pmtcrn_r --> M_crn_r + M_pmtcoa_r 
 R_r0559	M_h2o_c + M_o2_c + M_HC01522_c --> M_h2o2_c + M_h_c + M_HC00460_c 
@@ -132,5 +133,3 @@ R_CYOOm3	7.92 M_h_m + M_o2_m + 4.0 M_focytC_m --> 1.96 M_h2o_m + 4.0 M_h_i + 4.0
 R_CYOR_u10m	2.0 M_h_m + 2.0 M_ficytC_m + M_q10h2_m --> 4.0 M_h_i + M_q10_m + 2.0 M_focytC_m
 R_FADH2ETC	M_fadh2_m + M_q10_m --> M_fad_m + M_q10h2_m
 R_NADH2_u10m	5.0 M_h_m + M_nadh_m + M_q10_m --> 4.0 M_h_i + M_nad_m + M_q10h2_m
-R_SUCOAS1m	M_coa_m + M_gtp_m + M_succ_m + M_h_m <=> M_gdp_m + M_pi_m + M_succoa_m + M_h_i
-R_SUCOASm	M_coa_m + M_atp_m + M_succ_m + M_h_m <=> M_adp_m + M_pi_m + M_succoa_m + M_h_i

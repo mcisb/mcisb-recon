@@ -117,6 +117,7 @@ M_CE3075_[a-z]	http://identifiers.org/chebi/CHEBI:21092
 M_CE4786_[a-z]	http://identifiers.org/chebi/CHEBI:77202
 M_CE4788_[a-z]	http://identifiers.org/chebi/CHEBI:30322
 M_CE4813_[a-z]	http://identifiers.org/chebi/CHEBI:73862
+M_CE4814_[a-z]	http://identifiers.org/chebi/CHEBI:74265
 M_CE4815_[a-z]	http://identifiers.org/chebi/CHEBI:71489
 M_CE4822_[a-z]	http://identifiers.org/chebi/CHEBI:73870
 M_CE4823_[a-z]	http://identifiers.org/chebi/CHEBI:74086
@@ -192,6 +193,7 @@ M_docoscoa_[a-z]	http://identifiers.org/chebi/CHEBI:65059
 M_dodecanac_[a-z]	http://identifiers.org/chebi/CHEBI:4676
 M_ebastine_[a-z]	http://identifiers.org/chebi/CHEBI:31528
 M_ecgon_[a-z]	http://identifiers.org/chebi/CHEBI:4743
+M_eicostetcoa_[a-z]	http://identifiers.org/chebi/CHEBI:74265
 M_elaidcrn_[a-z]	http://identifiers.org/chebi/CHEBI:86038
 M_estroneglc_[a-z]	http://identifiers.org/kegg.compound/C11133
 M_etfox_[a-z]	http://identifiers.org/kegg.compound/C03161
