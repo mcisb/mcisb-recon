@@ -80,5 +80,4 @@ R_4HOXPACDOX_NADP_	false
 R_FACOAL161	false
 
 # Exchange reactions:
-R_EX_.*	true
-R_EX_.*	reverse
+R_EX_.*	true|reverse
