@@ -64,6 +64,13 @@ public class Recon2_2Generator
 		dobson.setEmail( "paul.dobson@manchester.ac.uk" ); //$NON-NLS-1$
 		modelHistory.addCreator( dobson );
 		
+		final Creator brewer = new Creator();
+		brewer.setGivenName( "Judy" ); //$NON-NLS-1$
+		brewer.setFamilyName( "Brewer" ); //$NON-NLS-1$
+		brewer.setOrganisation( "Massachusetts Institute of Technology" ); //$NON-NLS-1$
+		brewer.setEmail( "jbrewer@w3.org" ); //$NON-NLS-1$
+		modelHistory.addCreator( brewer );
+		
 		final Creator hanscho = new Creator();
 		hanscho.setGivenName( "Michael" ); //$NON-NLS-1$
 		hanscho.setFamilyName( "Hanscho" ); //$NON-NLS-1$
